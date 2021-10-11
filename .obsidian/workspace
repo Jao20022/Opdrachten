@@ -9,10 +9,47 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Biches/Just/Les 1.md",
+            "file": "Biches/Just/Blok A/Sprint 3/Les 8.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "a02f52b4d047e1b3"
+      },
+      {
+        "id": "7a87025ba7633b52",
+        "type": "leaf",
+        "state": {
+          "type": "localgraph",
+          "state": {
+            "file": "Biches/Just/Blok A/Sprint 3/Les 8.md",
+            "options": {
+              "collapse-filter": true,
+              "search": "",
+              "localJumps": 1,
+              "localBacklinks": true,
+              "localForelinks": true,
+              "localInterlinks": false,
+              "showTags": false,
+              "showAttachments": false,
+              "hideUnresolved": false,
+              "collapse-color-groups": true,
+              "colorGroups": [],
+              "collapse-display": true,
+              "showArrow": false,
+              "textFadeMultiplier": 0,
+              "nodeSizeMultiplier": 1,
+              "lineSizeMultiplier": 1,
+              "collapse-forces": true,
+              "centerStrength": 0.518713248970312,
+              "repelStrength": 10,
+              "linkStrength": 1,
+              "linkDistance": 250,
+              "scale": 1,
+              "close": false
+            }
+          }
+        },
+        "group": "a02f52b4d047e1b3"
       }
     ],
     "direction": "vertical"
@@ -68,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Biches/Just/Les 1.md",
+                "file": "Biches/Just/Blok A/Sprint 3/Les 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,9 +123,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "aebdc67c52aa0014",
+  "active": "7a87025ba7633b52",
   "lastOpenFiles": [
+    "Biches/Just/Blok A/Sprint 3/Les 8.md",
     "Biches/Just/Les 1.md",
+    "Boeken/Architecting the Cloud_ Design Decisions for Cloud Computing Service Models.pdf",
     "Untitled.md"
   ]
 }
