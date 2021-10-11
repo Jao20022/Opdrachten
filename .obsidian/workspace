@@ -7,9 +7,10 @@
         "id": "aebdc67c52aa0014",
         "type": "leaf",
         "state": {
-          "type": "pdf",
+          "type": "markdown",
           "state": {
-            "file": "Boeken/Architecting the Cloud_ Design Decisions for Cloud Computing Service Models.pdf"
+            "file": "Biches/Just/Blok A/Sprint 3/Les 8.md",
+            "mode": "source"
           }
         }
       }
@@ -75,7 +76,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boeken/Architecting the Cloud_ Design Decisions for Cloud Computing Service Models.pdf",
+                "file": "Biches/Just/Blok A/Sprint 3/Les 8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,19 +86,27 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "ea8d9f10a0a7b9c5",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "aebdc67c52aa0014",
   "lastOpenFiles": [
+    "Biches/Just/Blok A/Sprint 3/Les 8.md",
     "Boeken/Architecting the Cloud_ Design Decisions for Cloud Computing Service Models.pdf",
     "Boeken/Designing Software Architectures.pdf",
-    "Biches/Just/Blok A/Sprint 3/Les 8.md",
     "Biches/Just/Les 1.md",
     "Untitled.md"
   ]

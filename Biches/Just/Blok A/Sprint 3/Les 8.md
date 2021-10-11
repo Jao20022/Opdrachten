@@ -25,3 +25,10 @@ varchar nadeel - tabel kan van grootte veranderen.
   
 
 19 jan 2038 3:14 einde 32 bit
+
+| Medewerker       | Klant                             | Boodschappenlijst  |              |
+| ---------------- | --------------------------------- | ------------------ | ------------ |
+| Aantal           | flkasjdalskjdlajsdlasjkdl         | dlaksjdalsjdalksjd |              |
+| asdlkajsd        | alskdjalskjdalksjdlajsdlkajskljad | alksdjaklsjd       |              |
+| alksdjalksjdlasd | aslkdjalksdjlaksjd                | asldjalsdjk        | alskdjalskdj |
+|                  |                                   |                    |              |
