@@ -10,9 +10,9 @@
 
   
 
-**numeric -** cijfers
+**numeric - cijfers
 
-**alphanumeric -** cijfers characters en alle andere dingen
+**alphanumeric - cijfers characters en alle andere dingen
 
   
 
@@ -32,3 +32,4 @@ varchar nadeel - tabel kan van grootte veranderen.
 | asdlkajsd        | alskdjalskjdalksjdlajsdlkajskljad | alksdjaklsjd       |              |
 | alksdjalksjdlasd | aslkdjalksdjlaksjd                | asldjalsdjk        | alskdjalskdj |
 |                  |                                   |                    |              |
+
