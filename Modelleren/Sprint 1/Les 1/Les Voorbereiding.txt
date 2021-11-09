@@ -1,0 +1,25 @@
+Onderdelen van een opdracht
+
+1. Context verkrijgen 
+	onderzoek naar wat nodig is en hoe het product gebruikt moet worden
+
+2. Te ondersteunen activiteiten vastellen
+	In overleg met de klant wordt vastgestelt hoe het product gebruikt wordt
+	en welke functionaliteiten geimplementeerd moeten worden.
+
+3. Inventariseren en structureren
+	Verzamelde gegevens structuur geven en uitzoeken wat nodig is.
+
+Model beschrijft alleen belangrijke informatie
+
+Functie Modelleren
+
+complex probleem overzichtelijk maken
+
+Bij grote bedrijven kunnen verschillende sectoren goed werken. Meestal gaat het fout bij
+het overdragen tussen sectoren BPMN kan dit verhelpen
+
+
+Bedrijfsproces - geordende reeks processen die door het bedrijf uitgevoerd wordt.
+Werkproces - Vindt plaats binnen sector van het bedrijf.
+Processtap - Handelingen die ondoorbroken wordt uitgevoord door een actor

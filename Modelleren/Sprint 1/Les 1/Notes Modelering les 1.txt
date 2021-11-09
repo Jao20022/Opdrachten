@@ -1,0 +1,58 @@
+huisregels
+Je bent hier omdat je het wilt
+De lessen hebben waarde.
+(feedback)
+
+te laat: probeer les niet te verstoren.
+
+BPMN - Buisness Program Model and Notation
+ Meest gebruikt
+
+De klant weet niet wat 'ie wil
+vertrouw nooit op wat de klant invult.
+
+
+Verschil tussen wat de klant zegt en nodig heeft
+
+
+
+
+Modelering 
+
+Schematische weergave van de werkelijkheid, die een of meer aspecten benadruct
+
+Abstractie - filteren op belangrijke infromatie
+syntax - manier van schrijven
+semantiek - kleine verschillen
+
+structuur/gedrag - bij gedrag is tijd betrokken
+
+Bedrijfsprocessen
+
+keten van beslissingen
+
+
+
+Happy path - alles gaat goed.
+	start event
+	Activity
+	Sequence flow
+	End event
+
+Gateway - uitzondering naar eindtoestand.
+	Keuzes in process
+
+	Exclusive gateway - De twee mogelijkheden sluiten elkaar uit. Een pad wordt doorlopen.
+	Parallel gateway - Alle paden worden doorlopen
+	Inclusive gateway - Minimaal een pad treed op en maximaal alle paden.
+
+Bedenk wat mis kan gaan.
+
+Voor elke swim lane EEN actor
+actor - uitvoerend persoon
+
+White box - Alles bekend, je weet alle processen
+Black box - Process binnen de pool onbekend
+
+
+

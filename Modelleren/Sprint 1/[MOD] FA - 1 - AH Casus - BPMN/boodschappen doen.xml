@@ -1,0 +1,2082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions exporter="Visual Paradigm" exporterVersion="1" id="Definition" targetNamespace="http://www.omg.org/bpmn20" xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:vp="http://www.visual-paradigm.com/bpmn/vpspecificcontent" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/20100501/BPMN20.xsd">
+	<collaboration id="collaboration-_3">
+		<extensionElements>
+			<vp:Extensions>
+				<vp:DiagramExtension Idref="diagram-_3">
+					<vp:VpId Value="PMsfe96EiWTqACwg"/>
+					<vp:DiagramProperties>
+						<vp:StringProperty Name="userID" Value="3"/>
+						<vp:StringProperty Name="pmCreateDateTime" Value="1631533454140"/>
+						<vp:StringProperty Name="pmLastModified" Value="1631603631182"/>
+						<vp:DoubleProperty Name="teamworkCreateDateTime" Value="0"/>
+						<vp:IntegerProperty Name="connectorStyle" Value="5"/>
+						<vp:IntegerProperty Name="connectionPointStyle" Value="1"/>
+						<vp:DoubleProperty Name="zoomRatio" Value="0.4"/>
+						<vp:BooleanProperty Name="maximized" Value="true"/>
+						<vp:IntegerProperty Name="x" Value="0"/>
+						<vp:IntegerProperty Name="y" Value="0"/>
+						<vp:IntegerProperty Name="width" Value="741"/>
+						<vp:IntegerProperty Name="height" Value="664"/>
+						<vp:ModelRefProperty Name="parentModel">
+							<vp:ModelRef Id="BP01_BP11" ModelType="BPSubProcess" Name="Boodschappen doen">
+								<vp:Model id="BP01_BP11" name="Boodschappen doen">
+									<vp:VpId Value="s7Fve96EiWTqACvo"/>
+									<vp:ModelType Value="BPSubProcess"/>
+									<vp:ParentRef Idref="BP01"/>
+									<vp:ModelProperties>
+										<vp:StringProperty Name="pmCreateDateTime" Value="1631533305293"/>
+										<vp:StringProperty Name="pmLastModified" Value="1631534624438"/>
+										<vp:StringProperty Name="userID" Value="BP11"/>
+										<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+										<vp:IntegerProperty Name="userIDLastNumericValue" Value="4"/>
+										<vp:StringProperty Name="diagramId" Value="diagram-_3"/>
+										<vp:IntegerProperty Name="expandedDiagramContent" Value="0"/>
+									</vp:ModelProperties>
+									<vp:Children>
+										<vp:Model id="BP01_BP11_BP04" name="Zelfscanner">
+											<vp:VpId Value="rt.fe96EiWTqACx."/>
+											<vp:ModelType Value="BPPool"/>
+											<vp:ParentRef Idref="BP01_BP11"/>
+											<vp:ModelProperties>
+												<vp:StringProperty Name="pmCreateDateTime" Value="1631533529973"/>
+												<vp:StringProperty Name="pmLastModified" Value="1631603496482"/>
+												<vp:StringProperty Name="userID" Value="BP04"/>
+												<vp:StringProperty Name="userIDParent" Value="s7Fve96EiWTqACvo"/>
+												<vp:IntegerProperty Name="userIDLastNumericValue" Value="41"/>
+											</vp:ModelProperties>
+											<vp:Children>
+												<vp:Model id="BP01_BP11_BP04_BP01" name="">
+													<vp:VpId Value="y60_e96EiWTqACzz"/>
+													<vp:ModelType Value="BPIntermediateEvent"/>
+													<vp:ParentRef Idref="BP01_BP11_BP04"/>
+													<vp:ModelProperties>
+														<vp:StringProperty Name="pmCreateDateTime" Value="1631533708755"/>
+														<vp:StringProperty Name="pmLastModified" Value="1631533862654"/>
+														<vp:StringProperty Name="userID" Value="BP01"/>
+														<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+														<vp:ModelProperty Name="trigger"/>
+													</vp:ModelProperties>
+												</vp:Model>
+												<vp:Model id="BP01_BP11_BP04_BP02" name="Product wordt in de boodschappenlijst geplaatst">
+													<vp:VpId Value="Yae_e96EiWTqAC0o"/>
+													<vp:ModelType Value="BPTask"/>
+													<vp:ParentRef Idref="BP01_BP11_BP04"/>
+													<vp:ModelProperties>
+														<vp:StringProperty Name="pmCreateDateTime" Value="1631533786502"/>
+														<vp:StringProperty Name="pmLastModified" Value="1631533862649"/>
+														<vp:StringProperty Name="userID" Value="BP02"/>
+														<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+													</vp:ModelProperties>
+												</vp:Model>
+												<vp:Model id="BP01_BP11_BP04_BP04" name="">
+													<vp:VpId Value="qU8A.96EiWTqAC2y"/>
+													<vp:ModelType Value="BPStartEvent"/>
+													<vp:ParentRef Idref="BP01_BP11_BP04"/>
+													<vp:ModelProperties>
+														<vp:StringProperty Name="pmCreateDateTime" Value="1631533986453"/>
+														<vp:StringProperty Name="pmLastModified" Value="1631534041645"/>
+														<vp:StringProperty Name="userID" Value="BP04"/>
+														<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+													</vp:ModelProperties>
+												</vp:Model>
+												<vp:Model id="BP01_BP11_BP04_BP05" name="Boodschappenlijst bekijken">
+													<vp:VpId Value="reaA.96EiWTqAC3c"/>
+													<vp:ModelType Value="BPGateway"/>
+													<vp:ParentRef Idref="BP01_BP11_BP04"/>
+													<vp:ModelProperties>
+														<vp:StringProperty Name="pmCreateDateTime" Value="1631534016437"/>
+														<vp:StringProperty Name="pmLastModified" Value="1631534041644"/>
+														<vp:StringProperty Name="userID" Value="BP05"/>
+														<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+														<vp:ModelProperty Name="gatewayType">
+															<vp:Model id="ID_77540024_6175_7204_4226_235434200056" name="XOR">
+																<vp:VpId Value="Y.aA.96EiWTqAC3f"/>
+																<vp:ModelType Value="BPGatewayDataBasedXOR"/>
+																<vp:ModelProperties>
+																	<vp:StringProperty Name="pmCreateDateTime" Value="1631534016454"/>
+																</vp:ModelProperties>
+															</vp:Model>
+														</vp:ModelProperty>
+													</vp:ModelProperties>
+												</vp:Model>
+												<vp:Model id="BP01_BP11_BP04_BP33" name="">
+													<vp:VpId Value="HoIg.96EiWTqAC6F"/>
+													<vp:ModelType Value="BPGateway"/>
+													<vp:ParentRef Idref="BP01_BP11_BP04"/>
+													<vp:ModelProperties>
+														<vp:StringProperty Name="pmCreateDateTime" Value="1631534203256"/>
+														<vp:StringProperty Name="pmLastModified" Value="1631534332926"/>
+														<vp:StringProperty Name="userID" Value="BP33"/>
+														<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+														<vp:ModelProperty Name="gatewayType"/>
+													</vp:ModelProperties>
+												</vp:Model>
+												<vp:Model id="BP01_BP11_BP04_BP29" name="Boodschappenlijst bekijken">
+													<vp:VpId Value="Y8xA.96EiWTqAC4X"/>
+													<vp:ModelType Value="BPTask"/>
+													<vp:ParentRef Idref="BP01_BP11_BP04"/>
+													<vp:ModelProperties>
+														<vp:StringProperty Name="pmCreateDateTime" Value="1631534068678"/>
+														<vp:StringProperty Name="pmLastModified" Value="1631534416501"/>
+														<vp:StringProperty Name="userID" Value="BP29"/>
+														<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+													</vp:ModelProperties>
+												</vp:Model>
+												<vp:Model id="BP01_BP11_BP04_BP30" name="Product van lijst halen">
+													<vp:VpId Value="7RZA.96EiWTqAC4i"/>
+													<vp:ModelType Value="BPTask"/>
+													<vp:ParentRef Idref="BP01_BP11_BP04"/>
+													<vp:ModelProperties>
+														<vp:StringProperty Name="pmCreateDateTime" Value="1631534082231"/>
+														<vp:StringProperty Name="pmLastModified" Value="1631534416500"/>
+														<vp:StringProperty Name="userID" Value="BP30"/>
+														<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+													</vp:ModelProperties>
+												</vp:Model>
+												<vp:Model id="BP01_BP11_BP04_BP31" name="Het aantal veranderen">
+													<vp:VpId Value="STdA.96EiWTqAC4x"/>
+													<vp:ModelType Value="BPTask"/>
+													<vp:ParentRef Idref="BP01_BP11_BP04"/>
+													<vp:ModelProperties>
+														<vp:StringProperty Name="pmCreateDateTime" Value="1631534115986"/>
+														<vp:StringProperty Name="pmLastModified" Value="1631534416502"/>
+														<vp:StringProperty Name="userID" Value="BP31"/>
+														<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+													</vp:ModelProperties>
+												</vp:Model>
+												<vp:Model id="BP01_BP11_BP04_BP37" name="">
+													<vp:VpId Value="2nxg.96EiWTqAC7h"/>
+													<vp:ModelType Value="BPGateway"/>
+													<vp:ParentRef Idref="BP01_BP11_BP04"/>
+													<vp:ModelProperties>
+														<vp:StringProperty Name="pmCreateDateTime" Value="1631534333531"/>
+														<vp:StringProperty Name="pmLastModified" Value="1631534472908"/>
+														<vp:StringProperty Name="userID" Value="BP37"/>
+														<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+														<vp:ModelProperty Name="gatewayType"/>
+													</vp:ModelProperties>
+												</vp:Model>
+											</vp:Children>
+										</vp:Model>
+									</vp:Children>
+								</vp:Model>
+							</vp:ModelRef>
+						</vp:ModelRefProperty>
+						<vp:StringArrayProperty Name="customizedSortDiagramElementIds">
+							<vp:Values>
+								<vp:Value Value="ID_20540024_6175_7204_4226_235434200025"/>
+								<vp:Value Value="ID_52540024_6175_7204_4226_235434200045"/>
+							</vp:Values>
+						</vp:StringArrayProperty>
+						<vp:StringProperty Name="defaultParentModel" Value="Boodschappen doen"/>
+						<vp:IntegerProperty Name="autoStretchPools" Value="2"/>
+						<vp:ModelRefProperty Name="_parentProcessModel">
+							<vp:ModelRef Id="BP01_BP11" ModelType="BPSubProcess" Name="Boodschappen doen"/>
+						</vp:ModelRefProperty>
+					</vp:DiagramProperties>
+				</vp:DiagramExtension>
+				<vp:DiagramElementExtension Idref="ID_63140024_6175_7204_4226_235434200001">
+					<vp:VpId Value="D.6_e96EiWTqAC0Z"/>
+					<vp:ShapeType Value="BPMessageFlow"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="42"/>
+						<vp:IntegerProperty Name="x" Value="458"/>
+						<vp:IntegerProperty Name="y" Value="370"/>
+						<vp:IntegerProperty Name="width" Value="100"/>
+						<vp:IntegerProperty Name="height" Value="279"/>
+						<vp:ColorProperty Name="background" Value="-723724"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="fromShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromConnectType" Value="0"/>
+						<vp:IntegerProperty Name="toConnectType" Value="0"/>
+						<vp:BooleanProperty Name="useFromShapeCenter" Value="true"/>
+						<vp:BooleanProperty Name="useToShapeCenter" Value="true"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="91" X="509" Y="493"/>
+					<vp:ConnectorStyle Value="3"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_53140024_6175_7204_4226_235434200002">
+					<vp:VpId Value="yl4Q.96EiWTqAC9H"/>
+					<vp:ShapeType Value="BPGateway"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="2"/>
+						<vp:ColorProperty Name="background" Value="-8728587"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="parentConnectorHeaderLength" Value="40"/>
+						<vp:IntegerProperty Name="parentConnectorLineLength" Value="10"/>
+						<vp:BooleanProperty Name="connectToPoint" Value="true"/>
+						<vp:DoubleProperty Name="parentConnectorDTheta" Value="0.0"/>
+						<vp:BooleanProperty Name="coverConnector" Value="false"/>
+						<vp:BooleanProperty Name="requestDefaultSize" Value="false"/>
+						<vp:IntegerProperty Name="0cpPlct" Value="10"/>
+						<vp:IntegerProperty Name="idX" Value="1226"/>
+						<vp:IntegerProperty Name="idY" Value="350"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="150" X="1171" Y="390"/>
+					<vp:FillColor Color1="-26322" Style="1" Transparency="0" Type="1"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_33140024_6175_7204_4226_235434200003">
+					<vp:VpId Value="3mPg.96EiWTqAC8k"/>
+					<vp:ShapeType Value="BPGateway"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="4"/>
+						<vp:ColorProperty Name="background" Value="-8728587"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="parentConnectorHeaderLength" Value="40"/>
+						<vp:IntegerProperty Name="parentConnectorLineLength" Value="10"/>
+						<vp:BooleanProperty Name="connectToPoint" Value="true"/>
+						<vp:DoubleProperty Name="parentConnectorDTheta" Value="0.0"/>
+						<vp:BooleanProperty Name="coverConnector" Value="false"/>
+						<vp:BooleanProperty Name="requestDefaultSize" Value="false"/>
+						<vp:IntegerProperty Name="0cpPlct" Value="10"/>
+						<vp:IntegerProperty Name="idX" Value="1128"/>
+						<vp:IntegerProperty Name="idY" Value="350"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="1138" Y="390"/>
+					<vp:FillColor Color1="-26322" Style="1" Transparency="0" Type="1"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_33140024_6175_7204_4226_235434200004">
+					<vp:VpId Value="YZz_e96EiWTqAC1s"/>
+					<vp:ShapeType Value="BPGateway"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="16"/>
+						<vp:ColorProperty Name="background" Value="-8728587"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="parentConnectorHeaderLength" Value="40"/>
+						<vp:IntegerProperty Name="parentConnectorLineLength" Value="10"/>
+						<vp:BooleanProperty Name="connectToPoint" Value="true"/>
+						<vp:DoubleProperty Name="parentConnectorDTheta" Value="0.0"/>
+						<vp:BooleanProperty Name="coverConnector" Value="false"/>
+						<vp:BooleanProperty Name="requestDefaultSize" Value="false"/>
+						<vp:IntegerProperty Name="0cpPlct" Value="10"/>
+						<vp:IntegerProperty Name="idX" Value="579"/>
+						<vp:IntegerProperty Name="idY" Value="350"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="150" X="524" Y="390"/>
+					<vp:FillColor Color1="-26322" Style="1" Transparency="0" Type="1"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_73140024_6175_7204_4226_235434200005">
+					<vp:VpId Value="ZDF_e96EiWTqAC1M"/>
+					<vp:ShapeType Value="BPGateway"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="18"/>
+						<vp:ColorProperty Name="background" Value="-8728587"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="parentConnectorHeaderLength" Value="40"/>
+						<vp:IntegerProperty Name="parentConnectorLineLength" Value="10"/>
+						<vp:BooleanProperty Name="connectToPoint" Value="true"/>
+						<vp:DoubleProperty Name="parentConnectorDTheta" Value="0.0"/>
+						<vp:BooleanProperty Name="coverConnector" Value="false"/>
+						<vp:BooleanProperty Name="requestDefaultSize" Value="false"/>
+						<vp:IntegerProperty Name="0cpPlct" Value="10"/>
+						<vp:IntegerProperty Name="idX" Value="447"/>
+						<vp:IntegerProperty Name="idY" Value="350"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="457" Y="390"/>
+					<vp:FillColor Color1="-26322" Style="1" Transparency="0" Type="1"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_73140024_6175_7204_4226_235434200006">
+					<vp:VpId Value="BGE_e96EiWTqACzp"/>
+					<vp:ShapeType Value="BPIntermediateEvent"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="24"/>
+						<vp:ColorProperty Name="background" Value="-8728587"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="parentConnectorHeaderLength" Value="40"/>
+						<vp:IntegerProperty Name="parentConnectorLineLength" Value="10"/>
+						<vp:BooleanProperty Name="connectToPoint" Value="true"/>
+						<vp:DoubleProperty Name="parentConnectorDTheta" Value="0.0"/>
+						<vp:BooleanProperty Name="coverConnector" Value="false"/>
+						<vp:BooleanProperty Name="requestDefaultSize" Value="false"/>
+						<vp:IntegerProperty Name="0cpPlct" Value="10"/>
+						<vp:IntegerProperty Name="idX" Value="498"/>
+						<vp:IntegerProperty Name="idY" Value="400"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="498" Y="424"/>
+					<vp:FillColor Color1="-670598" Style="1" Transparency="0" Type="1"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_07140024_6175_7204_4226_235434200007">
+					<vp:VpId Value="qZHfe96EiWTqACzC"/>
+					<vp:ShapeType Value="BPTask"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="26"/>
+						<vp:ColorProperty Name="background" Value="-8728587"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="parentConnectorHeaderLength" Value="40"/>
+						<vp:IntegerProperty Name="parentConnectorLineLength" Value="10"/>
+						<vp:BooleanProperty Name="connectToPoint" Value="true"/>
+						<vp:DoubleProperty Name="parentConnectorDTheta" Value="0.0"/>
+						<vp:BooleanProperty Name="coverConnector" Value="false"/>
+						<vp:BooleanProperty Name="requestDefaultSize" Value="false"/>
+						<vp:IntegerProperty Name="idX" Value="305"/>
+						<vp:IntegerProperty Name="idY" Value="350"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="12" Visible="true" Width="125" X="0" Y="0"/>
+					<vp:FillColor Color1="-1116806" Style="1" Transparency="0" Type="1"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_07140024_6175_7204_4226_235434200010">
+					<vp:VpId Value="zYbfe96EiWTqACy1"/>
+					<vp:ShapeType Value="BPTask"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="28"/>
+						<vp:ColorProperty Name="background" Value="-8728587"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="parentConnectorHeaderLength" Value="40"/>
+						<vp:IntegerProperty Name="parentConnectorLineLength" Value="10"/>
+						<vp:BooleanProperty Name="connectToPoint" Value="true"/>
+						<vp:DoubleProperty Name="parentConnectorDTheta" Value="0.0"/>
+						<vp:BooleanProperty Name="coverConnector" Value="false"/>
+						<vp:BooleanProperty Name="requestDefaultSize" Value="false"/>
+						<vp:IntegerProperty Name="idX" Value="153"/>
+						<vp:IntegerProperty Name="idY" Value="350"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="12" Visible="true" Width="94" X="0" Y="0"/>
+					<vp:FillColor Color1="-1116806" Style="1" Transparency="0" Type="1"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_47140024_6175_7204_4226_235434200011">
+					<vp:VpId Value="5B2fe96EiWTqACxq"/>
+					<vp:ShapeType Value="BPStartEvent"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="32"/>
+						<vp:ColorProperty Name="background" Value="-8728587"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="parentConnectorHeaderLength" Value="40"/>
+						<vp:IntegerProperty Name="parentConnectorLineLength" Value="10"/>
+						<vp:BooleanProperty Name="connectToPoint" Value="true"/>
+						<vp:DoubleProperty Name="parentConnectorDTheta" Value="0.0"/>
+						<vp:BooleanProperty Name="coverConnector" Value="false"/>
+						<vp:BooleanProperty Name="requestDefaultSize" Value="false"/>
+						<vp:IntegerProperty Name="0cpPlct" Value="10"/>
+						<vp:IntegerProperty Name="idX" Value="75"/>
+						<vp:IntegerProperty Name="idY" Value="360"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="75" Y="384"/>
+					<vp:FillColor Color1="-3934854" Style="1" Transparency="0" Type="1"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_27140024_6175_7204_4226_235434200012">
+					<vp:VpId Value="kmsfe96EiWTqACwt"/>
+					<vp:ShapeType Value="BPEndEvent"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="34"/>
+						<vp:ColorProperty Name="background" Value="-8728587"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="parentConnectorHeaderLength" Value="40"/>
+						<vp:IntegerProperty Name="parentConnectorLineLength" Value="10"/>
+						<vp:BooleanProperty Name="connectToPoint" Value="true"/>
+						<vp:DoubleProperty Name="parentConnectorDTheta" Value="0.0"/>
+						<vp:BooleanProperty Name="coverConnector" Value="false"/>
+						<vp:BooleanProperty Name="requestDefaultSize" Value="false"/>
+						<vp:IntegerProperty Name="0cpPlct" Value="10"/>
+						<vp:IntegerProperty Name="idX" Value="1358"/>
+						<vp:IntegerProperty Name="idY" Value="360"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="3.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="86" X="1325" Y="384"/>
+					<vp:FillColor Color1="-689542" Style="1" Transparency="0" Type="1"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_67140024_6175_7204_4226_235434200013">
+					<vp:VpId Value="fRA_e96EiWTqACzP"/>
+					<vp:ShapeType Value="BPSequenceFlow"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="38"/>
+						<vp:IntegerProperty Name="x" Value="45"/>
+						<vp:IntegerProperty Name="y" Value="320"/>
+						<vp:IntegerProperty Name="width" Value="157"/>
+						<vp:IntegerProperty Name="height" Value="100"/>
+						<vp:ColorProperty Name="background" Value="-16777216"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="fromShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromConnectType" Value="0"/>
+						<vp:IntegerProperty Name="toConnectType" Value="0"/>
+						<vp:BooleanProperty Name="useFromShapeCenter" Value="true"/>
+						<vp:BooleanProperty Name="useToShapeCenter" Value="true"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="113" Y="369"/>
+					<vp:ConnectorStyle Value="3"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_67140024_6175_7204_4226_235434200014">
+					<vp:VpId Value="UGY_e96EiWTqACzh"/>
+					<vp:ShapeType Value="BPSequenceFlow"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="40"/>
+						<vp:IntegerProperty Name="x" Value="197"/>
+						<vp:IntegerProperty Name="y" Value="320"/>
+						<vp:IntegerProperty Name="width" Value="157"/>
+						<vp:IntegerProperty Name="height" Value="100"/>
+						<vp:ColorProperty Name="background" Value="-16777216"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="fromShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromConnectType" Value="0"/>
+						<vp:IntegerProperty Name="toConnectType" Value="0"/>
+						<vp:BooleanProperty Name="useFromShapeCenter" Value="true"/>
+						<vp:BooleanProperty Name="useToShapeCenter" Value="true"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="265" Y="369"/>
+					<vp:ConnectorStyle Value="3"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_17140024_6175_7204_4226_235434200015">
+					<vp:VpId Value="Wkt_e96EiWTqAC1g"/>
+					<vp:ShapeType Value="BPSequenceFlow"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="46"/>
+						<vp:IntegerProperty Name="x" Value="380"/>
+						<vp:IntegerProperty Name="y" Value="320"/>
+						<vp:IntegerProperty Name="width" Value="116"/>
+						<vp:IntegerProperty Name="height" Value="100"/>
+						<vp:ColorProperty Name="background" Value="-16777216"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="fromShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromConnectType" Value="0"/>
+						<vp:IntegerProperty Name="toConnectType" Value="0"/>
+						<vp:BooleanProperty Name="useFromShapeCenter" Value="true"/>
+						<vp:BooleanProperty Name="useToShapeCenter" Value="true"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="428" Y="369"/>
+					<vp:ConnectorStyle Value="3"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_57140024_6175_7204_4226_235434200016">
+					<vp:VpId Value="uud_e96EiWTqAC1k"/>
+					<vp:ShapeType Value="BPSequenceFlow"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="48"/>
+						<vp:IntegerProperty Name="x" Value="417"/>
+						<vp:IntegerProperty Name="y" Value="340"/>
+						<vp:IntegerProperty Name="width" Value="131"/>
+						<vp:IntegerProperty Name="height" Value="120"/>
+						<vp:ColorProperty Name="background" Value="-16777216"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="fromShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromConnectType" Value="0"/>
+						<vp:IntegerProperty Name="toConnectType" Value="0"/>
+						<vp:BooleanProperty Name="useFromShapeCenter" Value="true"/>
+						<vp:BooleanProperty Name="useToShapeCenter" Value="true"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="472" Y="409"/>
+					<vp:ConnectorStyle Value="3"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_57140024_6175_7204_4226_235434200017">
+					<vp:VpId Value="ijn_e96EiWTqAC1_"/>
+					<vp:ShapeType Value="BPSequenceFlow"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="50"/>
+						<vp:IntegerProperty Name="x" Value="437"/>
+						<vp:IntegerProperty Name="y" Value="320"/>
+						<vp:IntegerProperty Name="width" Value="191"/>
+						<vp:IntegerProperty Name="height" Value="100"/>
+						<vp:ColorProperty Name="background" Value="-16777216"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="fromShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromConnectType" Value="0"/>
+						<vp:IntegerProperty Name="toConnectType" Value="0"/>
+						<vp:BooleanProperty Name="useFromShapeCenter" Value="true"/>
+						<vp:BooleanProperty Name="useToShapeCenter" Value="true"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="522" Y="369"/>
+					<vp:ConnectorStyle Value="3"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_37140024_6175_7204_4226_235434200020">
+					<vp:VpId Value="cgig.96EiWTqAC6l"/>
+					<vp:ShapeType Value="BPSequenceFlow"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="52"/>
+						<vp:IntegerProperty Name="x" Value="569"/>
+						<vp:IntegerProperty Name="y" Value="320"/>
+						<vp:IntegerProperty Name="width" Value="267"/>
+						<vp:IntegerProperty Name="height" Value="310"/>
+						<vp:ColorProperty Name="background" Value="-16777216"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="fromShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromConnectType" Value="0"/>
+						<vp:IntegerProperty Name="toConnectType" Value="0"/>
+						<vp:BooleanProperty Name="useFromShapeCenter" Value="true"/>
+						<vp:BooleanProperty Name="useToShapeCenter" Value="true"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="32" X="671" Y="376"/>
+					<vp:ConnectorStyle Value="3"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_77140024_6175_7204_4226_235434200021">
+					<vp:VpId Value="dhgQ.96EiWTqAC89"/>
+					<vp:ShapeType Value="BPSequenceFlow"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="68"/>
+						<vp:IntegerProperty Name="x" Value="564"/>
+						<vp:IntegerProperty Name="y" Value="315"/>
+						<vp:IntegerProperty Name="width" Value="618"/>
+						<vp:IntegerProperty Name="height" Value="100"/>
+						<vp:ColorProperty Name="background" Value="-16777216"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="fromShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromConnectType" Value="0"/>
+						<vp:IntegerProperty Name="toConnectType" Value="0"/>
+						<vp:BooleanProperty Name="useFromShapeCenter" Value="true"/>
+						<vp:BooleanProperty Name="useToShapeCenter" Value="true"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="41" X="664" Y="345"/>
+					<vp:ConnectorStyle Value="3"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_00540024_6175_7204_4226_235434200022">
+					<vp:VpId Value="9mcQ.96EiWTqAC9W"/>
+					<vp:ShapeType Value="BPSequenceFlow"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="70"/>
+						<vp:IntegerProperty Name="x" Value="150"/>
+						<vp:IntegerProperty Name="y" Value="252"/>
+						<vp:IntegerProperty Name="width" Value="1146"/>
+						<vp:IntegerProperty Name="height" Value="148"/>
+						<vp:ColorProperty Name="background" Value="-16777216"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="fromShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromConnectType" Value="0"/>
+						<vp:IntegerProperty Name="toConnectType" Value="0"/>
+						<vp:BooleanProperty Name="useFromShapeCenter" Value="true"/>
+						<vp:BooleanProperty Name="useToShapeCenter" Value="true"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="32" X="1212" Y="317"/>
+					<vp:ConnectorStyle Value="3"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_00540024_6175_7204_4226_235434200023">
+					<vp:VpId Value="34GQ.96EiWTqAC9m"/>
+					<vp:ShapeType Value="BPSequenceFlow"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="72"/>
+						<vp:IntegerProperty Name="x" Value="1117"/>
+						<vp:IntegerProperty Name="y" Value="321"/>
+						<vp:IntegerProperty Name="width" Value="159"/>
+						<vp:IntegerProperty Name="height" Value="100"/>
+						<vp:ColorProperty Name="background" Value="-16777216"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="fromShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromConnectType" Value="0"/>
+						<vp:IntegerProperty Name="toConnectType" Value="0"/>
+						<vp:BooleanProperty Name="useFromShapeCenter" Value="true"/>
+						<vp:BooleanProperty Name="useToShapeCenter" Value="true"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="1186" Y="370"/>
+					<vp:ConnectorStyle Value="3"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_40540024_6175_7204_4226_235434200024">
+					<vp:VpId Value="srWQ.96EiWTqAC9y"/>
+					<vp:ShapeType Value="BPSequenceFlow"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="74"/>
+						<vp:IntegerProperty Name="x" Value="1216"/>
+						<vp:IntegerProperty Name="y" Value="320"/>
+						<vp:IntegerProperty Name="width" Value="192"/>
+						<vp:IntegerProperty Name="height" Value="100"/>
+						<vp:ColorProperty Name="background" Value="-16777216"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="fromShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromConnectType" Value="0"/>
+						<vp:IntegerProperty Name="toConnectType" Value="0"/>
+						<vp:BooleanProperty Name="useFromShapeCenter" Value="true"/>
+						<vp:BooleanProperty Name="useToShapeCenter" Value="true"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="41" X="1292" Y="354"/>
+					<vp:ConnectorStyle Value="3"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_20540024_6175_7204_4226_235434200025">
+					<vp:VpId Value="61Gfe96EiWTqACxX"/>
+					<vp:ShapeType Value="BPPool"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="36"/>
+						<vp:ModelRefProperty Name="metaModelElement">
+							<vp:ModelRef Id="BP01" ModelType="BPPool" Name="Klant"/>
+						</vp:ModelRefProperty>
+						<vp:IntegerProperty Name="x" Value="37"/>
+						<vp:IntegerProperty Name="y" Value="280"/>
+						<vp:IntegerProperty Name="width" Value="1382"/>
+						<vp:IntegerProperty Name="height" Value="185"/>
+						<vp:ColorProperty Name="background" Value="-8728587"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:StringArrayProperty Name="customizedSortDiagramElementIds">
+							<vp:Values>
+								<vp:Value Value="ID_47140024_6175_7204_4226_235434200011"/>
+								<vp:Value Value="ID_07140024_6175_7204_4226_235434200010"/>
+								<vp:Value Value="ID_07140024_6175_7204_4226_235434200007"/>
+								<vp:Value Value="ID_67140024_6175_7204_4226_235434200013"/>
+								<vp:Value Value="ID_67140024_6175_7204_4226_235434200014"/>
+								<vp:Value Value="ID_73140024_6175_7204_4226_235434200006"/>
+								<vp:Value Value="ID_63140024_6175_7204_4226_235434200001"/>
+								<vp:Value Value="ID_73140024_6175_7204_4226_235434200005"/>
+								<vp:Value Value="ID_17140024_6175_7204_4226_235434200015"/>
+								<vp:Value Value="ID_57140024_6175_7204_4226_235434200016"/>
+								<vp:Value Value="ID_33140024_6175_7204_4226_235434200004"/>
+								<vp:Value Value="ID_57140024_6175_7204_4226_235434200017"/>
+								<vp:Value Value="ID_37140024_6175_7204_4226_235434200020"/>
+								<vp:Value Value="ID_33140024_6175_7204_4226_235434200003"/>
+								<vp:Value Value="ID_77140024_6175_7204_4226_235434200021"/>
+								<vp:Value Value="ID_53140024_6175_7204_4226_235434200002"/>
+								<vp:Value Value="ID_00540024_6175_7204_4226_235434200022"/>
+								<vp:Value Value="ID_00540024_6175_7204_4226_235434200023"/>
+								<vp:Value Value="ID_27140024_6175_7204_4226_235434200012"/>
+								<vp:Value Value="ID_40540024_6175_7204_4226_235434200024"/>
+							</vp:Values>
+						</vp:StringArrayProperty>
+						<vp:IntegerProperty Name="parentConnectorHeaderLength" Value="40"/>
+						<vp:IntegerProperty Name="parentConnectorLineLength" Value="10"/>
+						<vp:BooleanProperty Name="connectToPoint" Value="true"/>
+						<vp:DoubleProperty Name="parentConnectorDTheta" Value="0.0"/>
+						<vp:BooleanProperty Name="coverConnector" Value="false"/>
+						<vp:BooleanProperty Name="requestDefaultSize" Value="false"/>
+						<vp:IntegerProperty Name="idX" Value="37"/>
+						<vp:IntegerProperty Name="idY" Value="280"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="185" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="8" Visible="true" Width="16" X="0" Y="0"/>
+					<vp:FillColor Color1="-7873291" Style="1" Transparency="0" Type="1"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_20540024_6175_7204_4226_235434200026">
+					<vp:VpId Value="2nxg.96EiWTqAC7g"/>
+					<vp:ShapeType Value="BPGateway"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="6"/>
+						<vp:ColorProperty Name="background" Value="-8728587"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="parentConnectorHeaderLength" Value="40"/>
+						<vp:IntegerProperty Name="parentConnectorLineLength" Value="10"/>
+						<vp:BooleanProperty Name="connectToPoint" Value="true"/>
+						<vp:DoubleProperty Name="parentConnectorDTheta" Value="0.0"/>
+						<vp:BooleanProperty Name="coverConnector" Value="false"/>
+						<vp:BooleanProperty Name="requestDefaultSize" Value="false"/>
+						<vp:IntegerProperty Name="0cpPlct" Value="10"/>
+						<vp:IntegerProperty Name="idX" Value="1055"/>
+						<vp:IntegerProperty Name="idY" Value="580"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="1065" Y="620"/>
+					<vp:FillColor Color1="-26322" Style="1" Transparency="0" Type="1"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_60540024_6175_7204_4226_235434200027">
+					<vp:VpId Value="7oIg.96EiWTqAC6E"/>
+					<vp:ShapeType Value="BPGateway"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="8"/>
+						<vp:ColorProperty Name="background" Value="-8728587"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="parentConnectorHeaderLength" Value="40"/>
+						<vp:IntegerProperty Name="parentConnectorLineLength" Value="10"/>
+						<vp:BooleanProperty Name="connectToPoint" Value="true"/>
+						<vp:DoubleProperty Name="parentConnectorDTheta" Value="0.0"/>
+						<vp:BooleanProperty Name="coverConnector" Value="false"/>
+						<vp:BooleanProperty Name="requestDefaultSize" Value="false"/>
+						<vp:IntegerProperty Name="0cpPlct" Value="10"/>
+						<vp:IntegerProperty Name="idX" Value="766"/>
+						<vp:IntegerProperty Name="idY" Value="580"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="776" Y="620"/>
+					<vp:FillColor Color1="-26322" Style="1" Transparency="0" Type="1"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_10540024_6175_7204_4226_235434200030">
+					<vp:VpId Value="iTdA.96EiWTqAC4w"/>
+					<vp:ShapeType Value="BPTask"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="10"/>
+						<vp:ColorProperty Name="background" Value="-8728587"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="parentConnectorHeaderLength" Value="40"/>
+						<vp:IntegerProperty Name="parentConnectorLineLength" Value="10"/>
+						<vp:BooleanProperty Name="connectToPoint" Value="true"/>
+						<vp:DoubleProperty Name="parentConnectorDTheta" Value="0.0"/>
+						<vp:BooleanProperty Name="coverConnector" Value="false"/>
+						<vp:BooleanProperty Name="requestDefaultSize" Value="false"/>
+						<vp:IntegerProperty Name="idX" Value="848"/>
+						<vp:IntegerProperty Name="idY" Value="635"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="12" Visible="true" Width="119" X="0" Y="0"/>
+					<vp:FillColor Color1="-1116806" Style="1" Transparency="0" Type="1"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_30540024_6175_7204_4226_235434200031">
+					<vp:VpId Value="7RZA.96EiWTqAC4h"/>
+					<vp:ShapeType Value="BPTask"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="12"/>
+						<vp:ColorProperty Name="background" Value="-8728587"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="parentConnectorHeaderLength" Value="40"/>
+						<vp:IntegerProperty Name="parentConnectorLineLength" Value="10"/>
+						<vp:BooleanProperty Name="connectToPoint" Value="true"/>
+						<vp:DoubleProperty Name="parentConnectorDTheta" Value="0.0"/>
+						<vp:BooleanProperty Name="coverConnector" Value="false"/>
+						<vp:BooleanProperty Name="requestDefaultSize" Value="false"/>
+						<vp:IntegerProperty Name="idX" Value="848"/>
+						<vp:IntegerProperty Name="idY" Value="580"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="12" Visible="true" Width="118" X="0" Y="0"/>
+					<vp:FillColor Color1="-1116806" Style="1" Transparency="0" Type="1"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_70540024_6175_7204_4226_235434200032">
+					<vp:VpId Value="Y8xA.96EiWTqAC4W"/>
+					<vp:ShapeType Value="BPTask"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="14"/>
+						<vp:ColorProperty Name="background" Value="-8728587"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="parentConnectorHeaderLength" Value="40"/>
+						<vp:IntegerProperty Name="parentConnectorLineLength" Value="10"/>
+						<vp:BooleanProperty Name="connectToPoint" Value="true"/>
+						<vp:DoubleProperty Name="parentConnectorDTheta" Value="0.0"/>
+						<vp:BooleanProperty Name="coverConnector" Value="false"/>
+						<vp:BooleanProperty Name="requestDefaultSize" Value="false"/>
+						<vp:IntegerProperty Name="idX" Value="848"/>
+						<vp:IntegerProperty Name="idY" Value="530"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="12" Visible="true" Width="143" X="0" Y="0"/>
+					<vp:FillColor Color1="-1116806" Style="1" Transparency="0" Type="1"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_04540024_6175_7204_4226_235434200033">
+					<vp:VpId Value="Yae_e96EiWTqAC0n"/>
+					<vp:ShapeType Value="BPTask"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="20"/>
+						<vp:ColorProperty Name="background" Value="-8728587"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="parentConnectorHeaderLength" Value="40"/>
+						<vp:IntegerProperty Name="parentConnectorLineLength" Value="10"/>
+						<vp:BooleanProperty Name="connectToPoint" Value="true"/>
+						<vp:DoubleProperty Name="parentConnectorDTheta" Value="0.0"/>
+						<vp:BooleanProperty Name="coverConnector" Value="false"/>
+						<vp:BooleanProperty Name="requestDefaultSize" Value="false"/>
+						<vp:IntegerProperty Name="idX" Value="553"/>
+						<vp:IntegerProperty Name="idY" Value="589"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="12" Visible="true" Width="150" X="0" Y="0"/>
+					<vp:FillColor Color1="-1116806" Style="1" Transparency="0" Type="1"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_24540024_6175_7204_4226_235434200034">
+					<vp:VpId Value="S60_e96EiWTqACzy"/>
+					<vp:ShapeType Value="BPIntermediateEvent"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="22"/>
+						<vp:ColorProperty Name="background" Value="-8728587"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="parentConnectorHeaderLength" Value="40"/>
+						<vp:IntegerProperty Name="parentConnectorLineLength" Value="10"/>
+						<vp:BooleanProperty Name="connectToPoint" Value="true"/>
+						<vp:DoubleProperty Name="parentConnectorDTheta" Value="0.0"/>
+						<vp:BooleanProperty Name="coverConnector" Value="false"/>
+						<vp:BooleanProperty Name="requestDefaultSize" Value="false"/>
+						<vp:IntegerProperty Name="0cpPlct" Value="10"/>
+						<vp:IntegerProperty Name="idX" Value="498"/>
+						<vp:IntegerProperty Name="idY" Value="599"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="498" Y="623"/>
+					<vp:FillColor Color1="-670598" Style="1" Transparency="0" Type="1"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_64540024_6175_7204_4226_235434200035">
+					<vp:VpId Value="0cp_e96EiWTqAC0y"/>
+					<vp:ShapeType Value="BPSequenceFlow"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="44"/>
+						<vp:IntegerProperty Name="x" Value="468"/>
+						<vp:IntegerProperty Name="y" Value="559"/>
+						<vp:IntegerProperty Name="width" Value="134"/>
+						<vp:IntegerProperty Name="height" Value="100"/>
+						<vp:ColorProperty Name="background" Value="-16777216"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="fromShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromConnectType" Value="0"/>
+						<vp:IntegerProperty Name="toConnectType" Value="0"/>
+						<vp:BooleanProperty Name="useFromShapeCenter" Value="true"/>
+						<vp:BooleanProperty Name="useToShapeCenter" Value="true"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="523" Y="608"/>
+					<vp:ConnectorStyle Value="3"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_14540024_6175_7204_4226_235434200036">
+					<vp:VpId Value="Ht6g.96EiWTqAC60"/>
+					<vp:ShapeType Value="BPSequenceFlow"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="54"/>
+						<vp:IntegerProperty Name="x" Value="756"/>
+						<vp:IntegerProperty Name="y" Value="500"/>
+						<vp:IntegerProperty Name="width" Value="141"/>
+						<vp:IntegerProperty Name="height" Value="150"/>
+						<vp:ColorProperty Name="background" Value="-16777216"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="fromShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromConnectType" Value="0"/>
+						<vp:IntegerProperty Name="toConnectType" Value="0"/>
+						<vp:BooleanProperty Name="useFromShapeCenter" Value="true"/>
+						<vp:BooleanProperty Name="useToShapeCenter" Value="true"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="821" Y="570"/>
+					<vp:ConnectorStyle Value="3"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_54540024_6175_7204_4226_235434200037">
+					<vp:VpId Value="IlOg.96EiWTqAC7G"/>
+					<vp:ShapeType Value="BPSequenceFlow"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="56"/>
+						<vp:IntegerProperty Name="x" Value="756"/>
+						<vp:IntegerProperty Name="y" Value="550"/>
+						<vp:IntegerProperty Name="width" Value="141"/>
+						<vp:IntegerProperty Name="height" Value="100"/>
+						<vp:ColorProperty Name="background" Value="-16777216"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="fromShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromConnectType" Value="0"/>
+						<vp:IntegerProperty Name="toConnectType" Value="0"/>
+						<vp:BooleanProperty Name="useFromShapeCenter" Value="true"/>
+						<vp:BooleanProperty Name="useToShapeCenter" Value="true"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="815" Y="599"/>
+					<vp:ConnectorStyle Value="3"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_74540024_6175_7204_4226_235434200040">
+					<vp:VpId Value="tL.g.96EiWTqAC7W"/>
+					<vp:ShapeType Value="BPSequenceFlow"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="58"/>
+						<vp:IntegerProperty Name="x" Value="756"/>
+						<vp:IntegerProperty Name="y" Value="550"/>
+						<vp:IntegerProperty Name="width" Value="141"/>
+						<vp:IntegerProperty Name="height" Value="154"/>
+						<vp:ColorProperty Name="background" Value="-16777216"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="fromShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromConnectType" Value="0"/>
+						<vp:IntegerProperty Name="toConnectType" Value="0"/>
+						<vp:BooleanProperty Name="useFromShapeCenter" Value="true"/>
+						<vp:BooleanProperty Name="useToShapeCenter" Value="true"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="806" Y="653"/>
+					<vp:ConnectorStyle Value="3"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_02540024_6175_7204_4226_235434200041">
+					<vp:VpId Value="NkVg.96EiWTqAC7q"/>
+					<vp:ShapeType Value="BPSequenceFlow"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="60"/>
+						<vp:IntegerProperty Name="x" Value="941"/>
+						<vp:IntegerProperty Name="y" Value="500"/>
+						<vp:IntegerProperty Name="width" Value="163"/>
+						<vp:IntegerProperty Name="height" Value="150"/>
+						<vp:ColorProperty Name="background" Value="-16777216"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="fromShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromConnectType" Value="0"/>
+						<vp:IntegerProperty Name="toConnectType" Value="0"/>
+						<vp:BooleanProperty Name="useFromShapeCenter" Value="true"/>
+						<vp:BooleanProperty Name="useToShapeCenter" Value="true"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="1010" Y="599"/>
+					<vp:ConnectorStyle Value="3"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_42540024_6175_7204_4226_235434200042">
+					<vp:VpId Value="jHNg.96EiWTqAC72"/>
+					<vp:ShapeType Value="BPSequenceFlow"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="62"/>
+						<vp:IntegerProperty Name="x" Value="917"/>
+						<vp:IntegerProperty Name="y" Value="550"/>
+						<vp:IntegerProperty Name="width" Value="187"/>
+						<vp:IntegerProperty Name="height" Value="155"/>
+						<vp:ColorProperty Name="background" Value="-16777216"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="fromShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromConnectType" Value="0"/>
+						<vp:IntegerProperty Name="toConnectType" Value="0"/>
+						<vp:BooleanProperty Name="useFromShapeCenter" Value="true"/>
+						<vp:BooleanProperty Name="useToShapeCenter" Value="true"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="1022" Y="668"/>
+					<vp:ConnectorStyle Value="3"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_62540024_6175_7204_4226_235434200043">
+					<vp:VpId Value="oLjg.96EiWTqAC8A"/>
+					<vp:ShapeType Value="BPSequenceFlow"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="64"/>
+						<vp:IntegerProperty Name="x" Value="916"/>
+						<vp:IntegerProperty Name="y" Value="550"/>
+						<vp:IntegerProperty Name="width" Value="188"/>
+						<vp:IntegerProperty Name="height" Value="100"/>
+						<vp:ColorProperty Name="background" Value="-16777216"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="fromShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromConnectType" Value="0"/>
+						<vp:IntegerProperty Name="toConnectType" Value="0"/>
+						<vp:BooleanProperty Name="useFromShapeCenter" Value="true"/>
+						<vp:BooleanProperty Name="useToShapeCenter" Value="true"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="1002" Y="599"/>
+					<vp:ConnectorStyle Value="3"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_12540024_6175_7204_4226_235434200044">
+					<vp:VpId Value="rf_g.96EiWTqAC85"/>
+					<vp:ShapeType Value="BPSequenceFlow"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="66"/>
+						<vp:IntegerProperty Name="x" Value="1025"/>
+						<vp:IntegerProperty Name="y" Value="320"/>
+						<vp:IntegerProperty Name="width" Value="152"/>
+						<vp:IntegerProperty Name="height" Value="310"/>
+						<vp:ColorProperty Name="background" Value="-16777216"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:IntegerProperty Name="fromShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeXDiff" Value="0"/>
+						<vp:IntegerProperty Name="toShapeYDiff" Value="0"/>
+						<vp:IntegerProperty Name="fromConnectType" Value="0"/>
+						<vp:IntegerProperty Name="toConnectType" Value="0"/>
+						<vp:BooleanProperty Name="useFromShapeCenter" Value="true"/>
+						<vp:BooleanProperty Name="useToShapeCenter" Value="true"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="1" Visible="true" Width="20" X="1076" Y="475"/>
+					<vp:ConnectorStyle Value="3"/>
+				</vp:DiagramElementExtension>
+				<vp:DiagramElementExtension Idref="ID_52540024_6175_7204_4226_235434200045">
+					<vp:VpId Value="rt.fe96EiWTqACx9"/>
+					<vp:ShapeType Value="BPPool"/>
+					<vp:DiagramElementProperties>
+						<vp:IntegerProperty Name="zOrder" Value="30"/>
+						<vp:ModelRefProperty Name="metaModelElement">
+							<vp:ModelRef Id="BP01_BP11_BP04" ModelType="BPPool" Name="Zelfscanner"/>
+						</vp:ModelRefProperty>
+						<vp:IntegerProperty Name="x" Value="38"/>
+						<vp:IntegerProperty Name="y" Value="525"/>
+						<vp:IntegerProperty Name="width" Value="1141"/>
+						<vp:IntegerProperty Name="height" Value="150"/>
+						<vp:ColorProperty Name="background" Value="-8728587"/>
+						<vp:ColorProperty Name="foreground" Value="-16777216"/>
+						<vp:StringArrayProperty Name="customizedSortDiagramElementIds">
+							<vp:Values>
+								<vp:Value Value="ID_24540024_6175_7204_4226_235434200034"/>
+								<vp:Value Value="ID_04540024_6175_7204_4226_235434200033"/>
+								<vp:Value Value="ID_64540024_6175_7204_4226_235434200035"/>
+								<vp:Value Value="ID_60540024_6175_7204_4226_235434200027"/>
+								<vp:Value Value="ID_70540024_6175_7204_4226_235434200032"/>
+								<vp:Value Value="ID_30540024_6175_7204_4226_235434200031"/>
+								<vp:Value Value="ID_10540024_6175_7204_4226_235434200030"/>
+								<vp:Value Value="ID_14540024_6175_7204_4226_235434200036"/>
+								<vp:Value Value="ID_54540024_6175_7204_4226_235434200037"/>
+								<vp:Value Value="ID_74540024_6175_7204_4226_235434200040"/>
+								<vp:Value Value="ID_20540024_6175_7204_4226_235434200026"/>
+								<vp:Value Value="ID_02540024_6175_7204_4226_235434200041"/>
+								<vp:Value Value="ID_42540024_6175_7204_4226_235434200042"/>
+								<vp:Value Value="ID_62540024_6175_7204_4226_235434200043"/>
+								<vp:Value Value="ID_12540024_6175_7204_4226_235434200044"/>
+							</vp:Values>
+						</vp:StringArrayProperty>
+						<vp:IntegerProperty Name="parentConnectorHeaderLength" Value="40"/>
+						<vp:IntegerProperty Name="parentConnectorLineLength" Value="10"/>
+						<vp:BooleanProperty Name="connectToPoint" Value="true"/>
+						<vp:DoubleProperty Name="parentConnectorDTheta" Value="0.0"/>
+						<vp:BooleanProperty Name="coverConnector" Value="false"/>
+						<vp:BooleanProperty Name="requestDefaultSize" Value="false"/>
+						<vp:IntegerProperty Name="idX" Value="38"/>
+						<vp:IntegerProperty Name="idY" Value="525"/>
+					</vp:DiagramElementProperties>
+					<vp:ElementFont Color="-16777216" Name="Dialog" Size="11" Style="0"/>
+					<vp:Line Cap="0" Color="-16777216" Transparency="0" Weight="1.0">
+						<vp:Stroke/>
+					</vp:Line>
+					<vp:Caption Height="150" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="8" Visible="true" Width="16" X="0" Y="0"/>
+					<vp:FillColor Color1="-7873291" Style="1" Transparency="0" Type="1"/>
+				</vp:DiagramElementExtension>
+			</vp:Extensions>
+		</extensionElements>
+		<participant id="BP01" name="Klant" processRef="process-BP01">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="zRL3e96EiWTqACqb"/>
+						<vp:ModelType Value="BPPool"/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631532828851"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631603271509"/>
+							<vp:StringProperty Name="userID" Value="BP01"/>
+							<vp:IntegerProperty Name="userIDLastNumericValue" Value="58"/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</participant>
+		<participant id="BP01_BP11_BP04" name="Zelfscanner" processRef="process-BP01_BP11_BP04">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="rt.fe96EiWTqACx."/>
+						<vp:ModelType Value="BPPool"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631533529973"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631603496482"/>
+							<vp:StringProperty Name="userID" Value="BP04"/>
+							<vp:StringProperty Name="userIDParent" Value="s7Fve96EiWTqACvo"/>
+							<vp:IntegerProperty Name="userIDLastNumericValue" Value="41"/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</participant>
+		<messageFlow id="BP01_BP21" name="Streepjescode" sourceRef="BP01_BP19" targetRef="BP01_BP11_BP04_BP01">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="W.6_e96EiWTqAC0Y"/>
+						<vp:ModelType Value="BPMessageFlow"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631533758426"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631533773135"/>
+							<vp:StringProperty Name="userID" Value="BP21"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</messageFlow>
+	</collaboration>
+	<process id="_3" isExecutable="false" name="Boodschappen doen">
+		<extensionElements/>
+	</process>
+	<process id="process-BP01" isExecutable="false" name="Klant">
+		<exclusiveGateway gatewayDirection="Unspecified" id="BP01_BP38" name="Verder met boodschappen">
+			<extensionElements>
+				<vp:bounds height="40" width="40" x="1226" y="350"/>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="yl4Q.96EiWTqAC9I"/>
+						<vp:ModelType Value="BPGateway"/>
+						<vp:ParentRef Idref="BP01"/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631534479955"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534577146"/>
+							<vp:StringProperty Name="userID" Value="BP38"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+							<vp:ModelProperty Name="gatewayType">
+								<vp:Model id="ID_72540024_6175_7204_4226_235434200046" name="XOR">
+									<vp:VpId Value="Ll4Q.96EiWTqAC9L"/>
+									<vp:ModelType Value="BPGatewayDataBasedXOR"/>
+									<vp:ModelProperties>
+										<vp:StringProperty Name="pmCreateDateTime" Value="1631534479988"/>
+									</vp:ModelProperties>
+								</vp:Model>
+							</vp:ModelProperty>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+			<incoming>BP01_BP40</incoming>
+			<outgoing>BP01_BP39</outgoing>
+			<outgoing>BP01_BP42</outgoing>
+		</exclusiveGateway>
+		<exclusiveGateway gatewayDirection="Unspecified" id="BP01_BP36" name="">
+			<extensionElements>
+				<vp:bounds height="40" width="40" x="1128" y="350"/>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="PmPg.96EiWTqAC8l"/>
+						<vp:ModelType Value="BPGateway"/>
+						<vp:ParentRef Idref="BP01"/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631534433916"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534577141"/>
+							<vp:StringProperty Name="userID" Value="BP36"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+							<vp:ModelProperty Name="gatewayType">
+								<vp:Model id="ID_06540024_6175_7204_4226_235434200047" name="XOR">
+									<vp:VpId Value="WWPg.96EiWTqAC8o"/>
+									<vp:ModelType Value="BPGatewayDataBasedXOR"/>
+									<vp:ModelProperties>
+										<vp:StringProperty Name="pmCreateDateTime" Value="1631534433946"/>
+									</vp:ModelProperties>
+								</vp:Model>
+							</vp:ModelProperty>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+			<incoming>BP01_BP11_BP04_BP41</incoming>
+			<incoming>BP01_BP37</incoming>
+			<outgoing>BP01_BP40</outgoing>
+		</exclusiveGateway>
+		<complexGateway gatewayDirection="Unspecified" id="BP01_BP25" name="Boodschappenlijst openen">
+			<extensionElements>
+				<vp:bounds height="40" width="40" x="579" y="350"/>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="YZz_e96EiWTqAC1t"/>
+						<vp:ModelType Value="BPGateway"/>
+						<vp:ParentRef Idref="BP01"/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631533873542"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534472913"/>
+							<vp:StringProperty Name="userID" Value="BP25"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+							<vp:ModelProperty Name="gatewayType">
+								<vp:Model id="ID_06540024_6175_7204_4226_235434200050" name="Complex">
+									<vp:VpId Value="jBvA.96EiWTqAC5Z"/>
+									<vp:ModelType Value="BPGatewayComplex"/>
+									<vp:ModelProperties>
+										<vp:StringProperty Name="pmCreateDateTime" Value="1631534176305"/>
+									</vp:ModelProperties>
+								</vp:Model>
+							</vp:ModelProperty>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+			<incoming>BP01_BP26</incoming>
+			<outgoing>BP01_BP35</outgoing>
+			<outgoing>BP01_BP37</outgoing>
+		</complexGateway>
+		<parallelGateway gatewayDirection="Unspecified" id="BP01_BP22" name="">
+			<extensionElements>
+				<vp:bounds height="40" width="40" x="447" y="350"/>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="5DF_e96EiWTqAC1N"/>
+						<vp:ModelType Value="BPGateway"/>
+						<vp:ParentRef Idref="BP01"/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631533829159"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631533917030"/>
+							<vp:StringProperty Name="userID" Value="BP22"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+							<vp:ModelProperty Name="gatewayType">
+								<vp:Model id="ID_46540024_6175_7204_4226_235434200051" name="AND">
+									<vp:VpId Value="h91_e96EiWTqAC1Z"/>
+									<vp:ModelType Value="BPGatewayAND"/>
+									<vp:ModelProperties>
+										<vp:StringProperty Name="pmCreateDateTime" Value="1631533841377"/>
+									</vp:ModelProperties>
+								</vp:Model>
+							</vp:ModelProperty>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+			<incoming>BP01_BP23</incoming>
+			<outgoing>BP01_BP24</outgoing>
+			<outgoing>BP01_BP26</outgoing>
+		</parallelGateway>
+		<intermediateThrowEvent id="BP01_BP19" name="">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="BGE_e96EiWTqACzq"/>
+						<vp:ModelType Value="BPIntermediateEvent"/>
+						<vp:ParentRef Idref="BP01"/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631533696544"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631533862644"/>
+							<vp:StringProperty Name="userID" Value="BP19"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+							<vp:ModelProperty Name="trigger">
+								<vp:Model id="ID_01540024_6175_7204_4226_235434200052" name="Message">
+									<vp:VpId Value="Pzi_e96EiWTqAC0J"/>
+									<vp:ModelType Value="BPMessageTrigger"/>
+									<vp:ModelProperties>
+										<vp:StringProperty Name="pmCreateDateTime" Value="1631533735164"/>
+										<vp:IntegerProperty Name="triggerType" Value="1"/>
+									</vp:ModelProperties>
+								</vp:Model>
+							</vp:ModelProperty>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+			<incoming>BP01_BP24</incoming>
+			<messageEventDefinition id="ID_01540024_6175_7204_4226_235434200052"/>
+		</intermediateThrowEvent>
+		<task completionQuantity="1" id="BP01_BP16" isForCompensation="false" name="Scant de streepjescode" startQuantity="1">
+			<extensionElements>
+				<vp:bounds height="40" width="125" x="305" y="350"/>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="qZHfe96EiWTqACzD"/>
+						<vp:ModelType Value="BPTask"/>
+						<vp:ParentRef Idref="BP01"/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631533631893"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631533862651"/>
+							<vp:StringProperty Name="userID" Value="BP16"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+			<incoming>BP01_BP18</incoming>
+			<outgoing>BP01_BP23</outgoing>
+		</task>
+		<task completionQuantity="1" id="BP01_BP15" isForCompensation="false" name="Pakt een product" startQuantity="1">
+			<extensionElements>
+				<vp:bounds height="40" width="94" x="153" y="350"/>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="LYbfe96EiWTqACy2"/>
+						<vp:ModelType Value="BPTask"/>
+						<vp:ParentRef Idref="BP01"/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631533621684"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534541604"/>
+							<vp:StringProperty Name="userID" Value="BP15"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+			<incoming>BP01_BP17</incoming>
+			<incoming>BP01_BP39</incoming>
+			<outgoing>BP01_BP18</outgoing>
+		</task>
+		<startEvent id="BP01_BP14" name="">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="5B2fe96EiWTqACxr"/>
+						<vp:ModelType Value="BPStartEvent"/>
+						<vp:ParentRef Idref="BP01"/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631533512743"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631533721630"/>
+							<vp:StringProperty Name="userID" Value="BP14"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+			<outgoing>BP01_BP17</outgoing>
+		</startEvent>
+		<endEvent id="BP01_BP41" name="Einde Proces">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="kmsfe96EiWTqACwu"/>
+						<vp:ModelType Value="BPEndEvent"/>
+						<vp:ParentRef Idref="BP01"/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631533454921"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534624420"/>
+							<vp:StringProperty Name="userID" Value="BP41"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+			<incoming>BP01_BP42</incoming>
+		</endEvent>
+		<sequenceFlow id="BP01_BP17" name="" sourceRef="BP01_BP14" targetRef="BP01_BP15">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="FRA_e96EiWTqACzO"/>
+						<vp:ModelType Value="BPSequenceFlow"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631533664424"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631533721607"/>
+							<vp:StringProperty Name="userID" Value="BP17"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</sequenceFlow>
+		<sequenceFlow id="BP01_BP18" name="" sourceRef="BP01_BP15" targetRef="BP01_BP16">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="L6Y_e96EiWTqACzg"/>
+						<vp:ModelType Value="BPSequenceFlow"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631533688308"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631533721627"/>
+							<vp:StringProperty Name="userID" Value="BP18"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</sequenceFlow>
+		<sequenceFlow id="BP01_BP23" name="" sourceRef="BP01_BP16" targetRef="BP01_BP22">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="okt_e96EiWTqAC1f"/>
+						<vp:ModelType Value="BPSequenceFlow"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631533847109"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631533862641"/>
+							<vp:StringProperty Name="userID" Value="BP23"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</sequenceFlow>
+		<sequenceFlow id="BP01_BP24" name="" sourceRef="BP01_BP22" targetRef="BP01_BP19">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="4ud_e96EiWTqAC1j"/>
+						<vp:ModelType Value="BPSequenceFlow"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631533852487"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631533862636"/>
+							<vp:StringProperty Name="userID" Value="BP24"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</sequenceFlow>
+		<sequenceFlow id="BP01_BP26" name="" sourceRef="BP01_BP22" targetRef="BP01_BP25">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="nDn_e96EiWTqAC1."/>
+						<vp:ModelType Value="BPSequenceFlow"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631533898809"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631533917030"/>
+							<vp:StringProperty Name="userID" Value="BP26"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</sequenceFlow>
+		<sequenceFlow id="BP01_BP35" name="Ja" sourceRef="BP01_BP25" targetRef="BP01_BP11_BP04_BP33">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="Ygig.96EiWTqAC6k"/>
+						<vp:ModelType Value="BPSequenceFlow"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631534256198"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534332920"/>
+							<vp:StringProperty Name="userID" Value="BP35"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</sequenceFlow>
+		<sequenceFlow id="BP01_BP37" name="Nee" sourceRef="BP01_BP25" targetRef="BP01_BP36">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="GhgQ.96EiWTqAC88"/>
+						<vp:ModelType Value="BPSequenceFlow"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631534454872"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534472891"/>
+							<vp:StringProperty Name="userID" Value="BP37"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</sequenceFlow>
+		<sequenceFlow id="BP01_BP39" name="Ja" sourceRef="BP01_BP38" targetRef="BP01_BP15">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="ZmcQ.96EiWTqAC9V"/>
+						<vp:ModelType Value="BPSequenceFlow"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631534507622"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534541602"/>
+							<vp:StringProperty Name="userID" Value="BP39"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</sequenceFlow>
+		<sequenceFlow id="BP01_BP40" name="" sourceRef="BP01_BP36" targetRef="BP01_BP38">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="Z4GQ.96EiWTqAC9l"/>
+						<vp:ModelType Value="BPSequenceFlow"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631534547430"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534577141"/>
+							<vp:StringProperty Name="userID" Value="BP40"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</sequenceFlow>
+		<sequenceFlow id="BP01_BP42" name="Nee" sourceRef="BP01_BP38" targetRef="BP01_BP41">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="7LWQ.96EiWTqAC9x"/>
+						<vp:ModelType Value="BPSequenceFlow"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631534558519"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534577123"/>
+							<vp:StringProperty Name="userID" Value="BP42"/>
+							<vp:StringProperty Name="userIDParent" Value="zRL3e96EiWTqACqb"/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</sequenceFlow>
+	</process>
+	<process id="process-BP01_BP11_BP04" isExecutable="false" name="Zelfscanner">
+		<inclusiveGateway gatewayDirection="Unspecified" id="BP01_BP11_BP04_BP37" name="">
+			<extensionElements>
+				<vp:bounds height="40" width="40" x="1055" y="580"/>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="2nxg.96EiWTqAC7h"/>
+						<vp:ModelType Value="BPGateway"/>
+						<vp:ParentRef Idref="BP01_BP11_BP04"/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631534333531"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534472908"/>
+							<vp:StringProperty Name="userID" Value="BP37"/>
+							<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+							<vp:ModelProperty Name="gatewayType">
+								<vp:Model id="ID_51540024_6175_7204_4226_235434200053" name="OR">
+									<vp:VpId Value="565g.96EiWTqAC7n"/>
+									<vp:ModelType Value="BPGatewayOR"/>
+									<vp:ModelProperties>
+										<vp:StringProperty Name="pmCreateDateTime" Value="1631534347751"/>
+									</vp:ModelProperties>
+								</vp:Model>
+							</vp:ModelProperty>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+			<incoming>BP01_BP11_BP04_BP38</incoming>
+			<incoming>BP01_BP11_BP04_BP39</incoming>
+			<incoming>BP01_BP11_BP04_BP40</incoming>
+			<outgoing>BP01_BP11_BP04_BP41</outgoing>
+		</inclusiveGateway>
+		<inclusiveGateway gatewayDirection="Unspecified" id="BP01_BP11_BP04_BP33" name="">
+			<extensionElements>
+				<vp:bounds height="40" width="40" x="766" y="580"/>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="HoIg.96EiWTqAC6F"/>
+						<vp:ModelType Value="BPGateway"/>
+						<vp:ParentRef Idref="BP01_BP11_BP04"/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631534203256"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534332926"/>
+							<vp:StringProperty Name="userID" Value="BP33"/>
+							<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+							<vp:ModelProperty Name="gatewayType">
+								<vp:Model id="ID_51540024_6175_7204_4226_235434200054" name="OR">
+									<vp:VpId Value="60ag.96EiWTqAC6x"/>
+									<vp:ModelType Value="BPGatewayOR"/>
+									<vp:ModelProperties>
+										<vp:StringProperty Name="pmCreateDateTime" Value="1631534277335"/>
+									</vp:ModelProperties>
+								</vp:Model>
+							</vp:ModelProperty>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+			<incoming>BP01_BP35</incoming>
+			<outgoing>BP01_BP11_BP04_BP34</outgoing>
+			<outgoing>BP01_BP11_BP04_BP35</outgoing>
+			<outgoing>BP01_BP11_BP04_BP36</outgoing>
+		</inclusiveGateway>
+		<task completionQuantity="1" id="BP01_BP11_BP04_BP31" isForCompensation="false" name="Het aantal veranderen" startQuantity="1">
+			<extensionElements>
+				<vp:bounds height="40" width="119" x="848" y="635"/>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="STdA.96EiWTqAC4x"/>
+						<vp:ModelType Value="BPTask"/>
+						<vp:ParentRef Idref="BP01_BP11_BP04"/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631534115986"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534416502"/>
+							<vp:StringProperty Name="userID" Value="BP31"/>
+							<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+			<incoming>BP01_BP11_BP04_BP36</incoming>
+			<outgoing>BP01_BP11_BP04_BP39</outgoing>
+		</task>
+		<task completionQuantity="1" id="BP01_BP11_BP04_BP30" isForCompensation="false" name="Product van lijst halen" startQuantity="1">
+			<extensionElements>
+				<vp:bounds height="40" width="118" x="848" y="580"/>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="7RZA.96EiWTqAC4i"/>
+						<vp:ModelType Value="BPTask"/>
+						<vp:ParentRef Idref="BP01_BP11_BP04"/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631534082231"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534416500"/>
+							<vp:StringProperty Name="userID" Value="BP30"/>
+							<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+			<incoming>BP01_BP11_BP04_BP35</incoming>
+			<outgoing>BP01_BP11_BP04_BP40</outgoing>
+		</task>
+		<task completionQuantity="1" id="BP01_BP11_BP04_BP29" isForCompensation="false" name="Boodschappenlijst bekijken" startQuantity="1">
+			<extensionElements>
+				<vp:bounds height="40" width="143" x="848" y="530"/>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="Y8xA.96EiWTqAC4X"/>
+						<vp:ModelType Value="BPTask"/>
+						<vp:ParentRef Idref="BP01_BP11_BP04"/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631534068678"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534416501"/>
+							<vp:StringProperty Name="userID" Value="BP29"/>
+							<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+			<incoming>BP01_BP11_BP04_BP34</incoming>
+			<outgoing>BP01_BP11_BP04_BP38</outgoing>
+		</task>
+		<task completionQuantity="1" id="BP01_BP11_BP04_BP02" isForCompensation="false" name="Product wordt in de boodschappenlijst geplaatst" startQuantity="1">
+			<extensionElements>
+				<vp:bounds height="40" width="150" x="553" y="589"/>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="Yae_e96EiWTqAC0o"/>
+						<vp:ModelType Value="BPTask"/>
+						<vp:ParentRef Idref="BP01_BP11_BP04"/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631533786502"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631533862649"/>
+							<vp:StringProperty Name="userID" Value="BP02"/>
+							<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+			<incoming>BP01_BP11_BP04_BP03</incoming>
+		</task>
+		<intermediateCatchEvent id="BP01_BP11_BP04_BP01" name="">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="y60_e96EiWTqACzz"/>
+						<vp:ModelType Value="BPIntermediateEvent"/>
+						<vp:ParentRef Idref="BP01_BP11_BP04"/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631533708755"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631533862654"/>
+							<vp:StringProperty Name="userID" Value="BP01"/>
+							<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+							<vp:ModelProperty Name="trigger">
+								<vp:Model id="ID_31540024_6175_7204_4226_235434200055" name="Message">
+									<vp:VpId Value="VCK_e96EiWTqAC0O"/>
+									<vp:ModelType Value="BPMessageTrigger"/>
+									<vp:ModelProperties>
+										<vp:StringProperty Name="pmCreateDateTime" Value="1631533745194"/>
+									</vp:ModelProperties>
+								</vp:Model>
+							</vp:ModelProperty>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+			<outgoing>BP01_BP11_BP04_BP03</outgoing>
+			<messageEventDefinition id="ID_31540024_6175_7204_4226_235434200055"/>
+		</intermediateCatchEvent>
+		<sequenceFlow id="BP01_BP11_BP04_BP03" name="" sourceRef="BP01_BP11_BP04_BP01" targetRef="BP01_BP11_BP04_BP02">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="rsp_e96EiWTqAC0x"/>
+						<vp:ModelType Value="BPSequenceFlow"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631533814645"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631533862649"/>
+							<vp:StringProperty Name="userID" Value="BP03"/>
+							<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</sequenceFlow>
+		<sequenceFlow id="BP01_BP11_BP04_BP34" name="" sourceRef="BP01_BP11_BP04_BP33" targetRef="BP01_BP11_BP04_BP29">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="Rt6g.96EiWTqAC6z"/>
+						<vp:ModelType Value="BPSequenceFlow"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631534283618"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534332918"/>
+							<vp:StringProperty Name="userID" Value="BP34"/>
+							<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</sequenceFlow>
+		<sequenceFlow id="BP01_BP11_BP04_BP35" name="" sourceRef="BP01_BP11_BP04_BP33" targetRef="BP01_BP11_BP04_BP30">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="dFOg.96EiWTqAC7F"/>
+						<vp:ModelType Value="BPSequenceFlow"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631534303790"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534332901"/>
+							<vp:StringProperty Name="userID" Value="BP35"/>
+							<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</sequenceFlow>
+		<sequenceFlow id="BP01_BP11_BP04_BP36" name="" sourceRef="BP01_BP11_BP04_BP33" targetRef="BP01_BP11_BP04_BP31">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="GL.g.96EiWTqAC7V"/>
+						<vp:ModelType Value="BPSequenceFlow"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631534316824"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534332926"/>
+							<vp:StringProperty Name="userID" Value="BP36"/>
+							<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</sequenceFlow>
+		<sequenceFlow id="BP01_BP11_BP04_BP38" name="" sourceRef="BP01_BP11_BP04_BP29" targetRef="BP01_BP11_BP04_BP37">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="qkVg.96EiWTqAC7p"/>
+						<vp:ModelType Value="BPSequenceFlow"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631534359125"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534416478"/>
+							<vp:StringProperty Name="userID" Value="BP38"/>
+							<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</sequenceFlow>
+		<sequenceFlow id="BP01_BP11_BP04_BP39" name="" sourceRef="BP01_BP11_BP04_BP31" targetRef="BP01_BP11_BP04_BP37">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="WHNg.96EiWTqAC71"/>
+						<vp:ModelType Value="BPSequenceFlow"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631534370330"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534416495"/>
+							<vp:StringProperty Name="userID" Value="BP39"/>
+							<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</sequenceFlow>
+		<sequenceFlow id="BP01_BP11_BP04_BP40" name="" sourceRef="BP01_BP11_BP04_BP30" targetRef="BP01_BP11_BP04_BP37">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value="dzjg.96EiWTqAC7_"/>
+						<vp:ModelType Value="BPSequenceFlow"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631534390510"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534416497"/>
+							<vp:StringProperty Name="userID" Value="BP40"/>
+							<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</sequenceFlow>
+		<sequenceFlow id="BP01_BP11_BP04_BP41" name="" sourceRef="BP01_BP11_BP04_BP37" targetRef="BP01_BP36">
+			<extensionElements>
+				<vp:Extensions>
+					<vp:ModelExtension>
+						<vp:VpId Value=".f_g.96EiWTqAC84"/>
+						<vp:ModelType Value="BPSequenceFlow"/>
+						<vp:ParentRef/>
+						<vp:ModelProperties>
+							<vp:StringProperty Name="pmCreateDateTime" Value="1631534448543"/>
+							<vp:StringProperty Name="pmLastModified" Value="1631534472908"/>
+							<vp:StringProperty Name="userID" Value="BP41"/>
+							<vp:StringProperty Name="userIDParent" Value="rt.fe96EiWTqACx."/>
+						</vp:ModelProperties>
+					</vp:ModelExtension>
+				</vp:Extensions>
+			</extensionElements>
+		</sequenceFlow>
+	</process>
+	<bpmndi:BPMNDiagram id="diagram-_3" name="Boodschappen doen">
+		<bpmndi:BPMNPlane bpmnElement="collaboration-_3" id="plane-_3">
+			<bpmndi:BPMNEdge bpmnElement="BP01_BP21" id="ID_63140024_6175_7204_4226_235434200001">
+				<omgdi:waypoint x="508" y="420"/>
+				<omgdi:waypoint x="508" y="599"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNShape bpmnElement="BP01_BP38" id="ID_53140024_6175_7204_4226_235434200002">
+				<omgdc:Bounds height="40" width="40" x="1226" y="350"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="BP01_BP36" id="ID_33140024_6175_7204_4226_235434200003">
+				<omgdc:Bounds height="40" width="40" x="1128" y="350"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="BP01_BP25" id="ID_33140024_6175_7204_4226_235434200004">
+				<omgdc:Bounds height="40" width="40" x="579" y="350"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="BP01_BP22" id="ID_73140024_6175_7204_4226_235434200005">
+				<omgdc:Bounds height="40" width="40" x="447" y="350"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="BP01_BP19" id="ID_73140024_6175_7204_4226_235434200006">
+				<omgdc:Bounds height="20" width="20" x="498" y="400"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="BP01_BP16" id="ID_07140024_6175_7204_4226_235434200007">
+				<omgdc:Bounds height="40" width="125" x="305" y="350"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="BP01_BP15" id="ID_07140024_6175_7204_4226_235434200010">
+				<omgdc:Bounds height="40" width="94" x="153" y="350"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="BP01_BP14" id="ID_47140024_6175_7204_4226_235434200011">
+				<omgdc:Bounds height="20" width="20" x="75" y="360"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="BP01_BP41" id="ID_27140024_6175_7204_4226_235434200012">
+				<omgdc:Bounds height="20" width="20" x="1358" y="360"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNEdge bpmnElement="BP01_BP17" id="ID_67140024_6175_7204_4226_235434200013">
+				<omgdi:waypoint x="95" y="370"/>
+				<omgdi:waypoint x="152" y="370"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="BP01_BP18" id="ID_67140024_6175_7204_4226_235434200014">
+				<omgdi:waypoint x="247" y="370"/>
+				<omgdi:waypoint x="304" y="370"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="BP01_BP23" id="ID_17140024_6175_7204_4226_235434200015">
+				<omgdi:waypoint x="430" y="370"/>
+				<omgdi:waypoint x="446" y="370"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="BP01_BP24" id="ID_57140024_6175_7204_4226_235434200016">
+				<omgdi:waypoint x="467" y="390"/>
+				<omgdi:waypoint x="467" y="410"/>
+				<omgdi:waypoint x="498" y="410"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="BP01_BP26" id="ID_57140024_6175_7204_4226_235434200017">
+				<omgdi:waypoint x="487" y="370"/>
+				<omgdi:waypoint x="578" y="370"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="BP01_BP35" id="ID_37140024_6175_7204_4226_235434200020">
+				<omgdi:waypoint x="619" y="370"/>
+				<omgdi:waypoint x="786" y="370"/>
+				<omgdi:waypoint x="786" y="580"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="BP01_BP37" id="ID_77140024_6175_7204_4226_235434200021">
+				<omgdi:waypoint x="614" y="365"/>
+				<omgdi:waypoint x="1132" y="365"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="BP01_BP39" id="ID_00540024_6175_7204_4226_235434200022">
+				<omgdi:waypoint x="1246" y="350"/>
+				<omgdi:waypoint x="1246" y="302"/>
+				<omgdi:waypoint x="200" y="302"/>
+				<omgdi:waypoint x="200" y="349"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="BP01_BP40" id="ID_00540024_6175_7204_4226_235434200023">
+				<omgdi:waypoint x="1167" y="371"/>
+				<omgdi:waypoint x="1226" y="371"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="BP01_BP42" id="ID_40540024_6175_7204_4226_235434200024">
+				<omgdi:waypoint x="1266" y="370"/>
+				<omgdi:waypoint x="1358" y="370"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNShape bpmnElement="BP01" id="ID_20540024_6175_7204_4226_235434200025" isHorizontal="true">
+				<omgdc:Bounds height="185" width="1382" x="37" y="280"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="BP01_BP11_BP04_BP37" id="ID_20540024_6175_7204_4226_235434200026">
+				<omgdc:Bounds height="40" width="40" x="1055" y="580"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="BP01_BP11_BP04_BP33" id="ID_60540024_6175_7204_4226_235434200027">
+				<omgdc:Bounds height="40" width="40" x="766" y="580"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="BP01_BP11_BP04_BP31" id="ID_10540024_6175_7204_4226_235434200030">
+				<omgdc:Bounds height="40" width="119" x="848" y="635"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="BP01_BP11_BP04_BP30" id="ID_30540024_6175_7204_4226_235434200031">
+				<omgdc:Bounds height="40" width="118" x="848" y="580"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="BP01_BP11_BP04_BP29" id="ID_70540024_6175_7204_4226_235434200032">
+				<omgdc:Bounds height="40" width="143" x="848" y="530"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="BP01_BP11_BP04_BP02" id="ID_04540024_6175_7204_4226_235434200033">
+				<omgdc:Bounds height="40" width="150" x="553" y="589"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape bpmnElement="BP01_BP11_BP04_BP01" id="ID_24540024_6175_7204_4226_235434200034">
+				<omgdc:Bounds height="20" width="20" x="498" y="599"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNEdge bpmnElement="BP01_BP11_BP04_BP03" id="ID_64540024_6175_7204_4226_235434200035">
+				<omgdi:waypoint x="518" y="609"/>
+				<omgdi:waypoint x="552" y="609"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="BP01_BP11_BP04_BP34" id="ID_14540024_6175_7204_4226_235434200036">
+				<omgdi:waypoint x="806" y="600"/>
+				<omgdi:waypoint x="808" y="600"/>
+				<omgdi:waypoint x="808" y="550"/>
+				<omgdi:waypoint x="847" y="550"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="BP01_BP11_BP04_BP35" id="ID_54540024_6175_7204_4226_235434200037">
+				<omgdi:waypoint x="806" y="600"/>
+				<omgdi:waypoint x="847" y="600"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="BP01_BP11_BP04_BP36" id="ID_74540024_6175_7204_4226_235434200040">
+				<omgdi:waypoint x="806" y="600"/>
+				<omgdi:waypoint x="808" y="600"/>
+				<omgdi:waypoint x="808" y="654"/>
+				<omgdi:waypoint x="847" y="654"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="BP01_BP11_BP04_BP38" id="ID_02540024_6175_7204_4226_235434200041">
+				<omgdi:waypoint x="991" y="550"/>
+				<omgdi:waypoint x="1012" y="550"/>
+				<omgdi:waypoint x="1012" y="600"/>
+				<omgdi:waypoint x="1054" y="600"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="BP01_BP11_BP04_BP39" id="ID_42540024_6175_7204_4226_235434200042">
+				<omgdi:waypoint x="967" y="655"/>
+				<omgdi:waypoint x="1012" y="655"/>
+				<omgdi:waypoint x="1012" y="600"/>
+				<omgdi:waypoint x="1054" y="600"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="BP01_BP11_BP04_BP40" id="ID_62540024_6175_7204_4226_235434200043">
+				<omgdi:waypoint x="966" y="600"/>
+				<omgdi:waypoint x="1054" y="600"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge bpmnElement="BP01_BP11_BP04_BP41" id="ID_12540024_6175_7204_4226_235434200044">
+				<omgdi:waypoint x="1075" y="580"/>
+				<omgdi:waypoint x="1075" y="370"/>
+				<omgdi:waypoint x="1127" y="370"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNShape bpmnElement="BP01_BP11_BP04" id="ID_52540024_6175_7204_4226_235434200045" isHorizontal="true">
+				<omgdc:Bounds height="150" width="1141" x="38" y="525"/>
+			</bpmndi:BPMNShape>
+		</bpmndi:BPMNPlane>
+	</bpmndi:BPMNDiagram>
+</definitions>

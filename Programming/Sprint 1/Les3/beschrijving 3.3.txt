@@ -1,0 +1,6 @@
+step 1: start
+step 2: input wat verdien je per uur?
+step 3: input hoeveel uur heb je gewerkt?
+step 4: uurloon keer uren gewerkt
+step 5: print aantal uur gewerkt en totale loon
+step 6: stop
