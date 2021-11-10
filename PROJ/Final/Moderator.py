@@ -4,6 +4,19 @@ import json
 from TwitterAPI import TwitterAPI
 
 
+def tweet(bericht, naam, datum, locatie):
+    global keyfile
+    with open(keyfile, 'r') as json_file:
+        data = json.load(json_file)
+        consumer_key = data['consumer_key']
+        consumer_secret = data['consumer_secret']
+        access_token_key = data['access_token_key']
+        access_token_secret = data['access_token_secret']
+    api = TwitterAPI(consumer_key, consumer_secret, access_token_key, access_token_secret)
+    text = f"{naam}\n\n{bericht}\n\n{locatie} | {datum}"
+    r = api.request('statuses/update', {'status': text})
+    return r.status_code
+
 # Haalt gegevens voor databse connectie uit json
 def database_connectie(databasefile):
     with open(databasefile, 'r') as json_file:
@@ -16,12 +29,7 @@ def database_connectie(databasefile):
     return host, database, user, password, port
 
 
-# Tweet goedgekeurd bericht
-def tweet(bericht, naam, datum, locatie):
-    global api
-    text = f"{naam}\n\n{bericht}\n\n{locatie} | {datum}"
-    r = api.request('statuses/update', {'status': text})
-    return r.status_code
+
 
 
 # Controle of er een int als id is ingevuld
@@ -173,14 +181,6 @@ def print_afgekeurde_berichten():
 
 # Standaard variablelen voor correcte werking en verbinding database
 keyfile = 'TwitterAPI.json'
-
-with open(keyfile, 'r') as json_file:
-    data = json.load(json_file)
-    consumer_key = data['consumer_key']
-    consumer_secret = data['consumer_secret']
-    access_token_key = data['access_token_key']
-    access_token_secret = data['access_token_secret']
-    api = TwitterAPI(consumer_key, consumer_secret, access_token_key, access_token_secret)
 databasefile = 'Database.json'
 host, database, user, password, port = database_connectie(databasefile)
 con = psycopg2.connect(

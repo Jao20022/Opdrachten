@@ -1,6 +1,8 @@
 from tkinter import *
 import Scherm
 
+# TODO: evt. afbeeldingen bij weer
+# TODO: Font selectie
 
 def loop():
     label.config(text=Scherm.scherm())
@@ -10,7 +12,7 @@ root = Tk()
 label = Label(master=root,
               background='lightblue',
               foregroun='white',
-              font=('Helvetica', 50),
+              font=('monospace', 50),
               width=30,
               height=10)
 label.pack()

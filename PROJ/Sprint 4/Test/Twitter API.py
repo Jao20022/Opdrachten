@@ -2,7 +2,7 @@ import json
 from TwitterAPI import TwitterAPI
 
 def tweet():
-    with open('../TwitterAPI.json', 'r') as json_file:
+    with open('TwitterAPI.json', 'r') as json_file:
         data = json.load(json_file)
         consumer_key = data['consumer_key']
         consumer_secret = data['consumer_secret']
