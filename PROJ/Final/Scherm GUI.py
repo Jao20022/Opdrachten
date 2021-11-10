@@ -9,12 +9,15 @@ def loop():
     label.after(5000, loop)
 
 root = Tk()
-label = Label(master=root,
-              background='lightblue',
-              foregroun='white',
+achter= Frame(master=root, background ='lightblue')
+afbeelding=Frame(master=achter)
+label = Label(master=achter,
+              background='white',
               font=('monospace', 50),
               width=30,
-              height=10)
-label.pack()
+              height=5)
+
+achter.pack()
+label.pack(side=LEFT,padx=100,pady=100)
 loop()
 root.mainloop()
