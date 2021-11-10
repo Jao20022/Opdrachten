@@ -141,7 +141,7 @@ def export_slecht(berichtid, moderatorid, opmerking):  # exporteert de gemoderee
 def print_afgekeurde_berichten():
     lijst = []
     sql = '''
-        select bericht.id, bericht.naam, bericht, locatie, datum_bericht , tijd_bericht, moderator.naam, status, opmerking
+        select bericht.id, bericht.naam, bericht, locatie, datum_bericht , tijd_bericht, moderator.naam, status, opmerking, datum_moderatie, tijd_moderatie
         from bericht, zuil, moderator
         where  status = 1
         and bericht.zuilid = zuil.id
@@ -160,18 +160,21 @@ def print_afgekeurde_berichten():
         naam = row[1]
         bericht = row[2]
         locatie = row[3]
-        datum = row[4]
-        tijd = row[5]
+        datum_bericht = row[4]
+        tijd_bericht = row[5]
         moderator = row[6]
         status = code_status(row[7])
         opmerking = row[8]
+        datum_moderatie = row[9]
+        tijd_moderatie = row[10]
         if naam == None:
             naam = 'Anoniem'
         lijst.append(f'''
         locatie: {locatie}
-        Moment: {datum} {tijd}
+        Moment bericht: {datum_bericht} {tijd_bericht}
         Naam: {naam}
         Bericht: {bericht}
+        Moment moderatie: {datum_moderatie} {tijd_moderatie}
         Moderator: {moderator}
         Status: {status}
         Opmerking: {opmerking}

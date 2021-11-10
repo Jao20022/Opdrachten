@@ -1,5 +1,5 @@
 from tkinter import *
-import Gebruiker
+import Zuil
 
 
 def reset():  # Leegt de error en success label
@@ -9,15 +9,15 @@ def reset():  # Leegt de error en success label
 
 def verstuur():  # Wanneer gebruiker op verstuur knop drukt, voegt deze functie het toe aan de daatabase.
     status.config(text='')
-    naam = Gebruiker.naam_controle(naamEntry.get())
+    naam = Zuil.naam_controle(naamEntry.get())
     bericht = berichtEntry.get()
-    code = Gebruiker.bericht_check(bericht)
+    code = Zuil.bericht_check(bericht)
     if code < 1:
         error(code)
     if code == 1:
         print('success')
         errorLabel.config(text='')
-        if Gebruiker.export(bericht, naam):
+        if Zuil.export(bericht, naam):
             status.config(text='Succesvol verstuurd')
     status.after(5000, reset)  # reset de GUI na 5 seconden voor de volgende gebruiker
 

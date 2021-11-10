@@ -1,13 +1,13 @@
 from tkinter import *
 import Scherm
 
-# TODO: evt. afbeeldingen bij weer
-# TODO: Font selectie
 
+# Ververst om de 5 seconden het scherm
 def loop():
     label.config(text=Scherm.scherm())
     label.after(5000, loop)
 
+# GUI
 root = Tk()
 achter= Frame(master=root, background ='lightblue')
 afbeelding=Frame(master=achter)
