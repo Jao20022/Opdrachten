@@ -1,2 +1,6 @@
 ##### contact
-contact: andre.veelders@hu.nl
+mail: andre.veelders@hu.nl
+*Vooral via mail.* 
+ 
+
+
