@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BLOK B/AI/Getallen.md",
+            "file": "BLOK B/BIM/Intro BIM.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BLOK B/AI/Getallen.md",
+                "file": "BLOK B/BIM/Intro BIM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "97bba1b94427b5e0",
   "lastOpenFiles": [
+    "BLOK B/BIM/Intro BIM.md",
     "BLOK B/AI/Getallen.md",
     "Opdrachten/1.36.md",
     "Opdrachten/1.35.md",
@@ -96,7 +97,6 @@
     "Opdrachten/1.32.md",
     "Opdrachten/1.31.md",
     "Opdrachten/1.30.md",
-    "Opdrachten/1.29.md",
-    "AI Intro.md"
+    "Opdrachten/1.29.md"
   ]
 }
