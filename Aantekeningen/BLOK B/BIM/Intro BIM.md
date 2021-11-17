@@ -32,4 +32,7 @@ mail: andre.veelders@hu.nl
 - Optimale dienstverlening
 - Integratie klantsystemen
 
-#### 
+#### Operational Excelence
+- Hoge betrouwbaarheid
+- Beperkt assortiment
+- Lage kosten
