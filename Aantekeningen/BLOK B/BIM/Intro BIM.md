@@ -13,7 +13,8 @@ mail: andre.veelders@hu.nl
 ### Context
   - ##### Viesie
 	  - Uitendelijk doel van een organisatie
+	  - Spreekt van een vaag toekomstbeeld
 - ##### Missie
-   - Doel om dichter bij je visie te komen
-- ##### Strategie
-	-  
+   - Waar ze voor staan
+   - 
+  
