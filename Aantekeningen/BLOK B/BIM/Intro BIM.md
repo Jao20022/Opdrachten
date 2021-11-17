@@ -18,5 +18,18 @@ mail: andre.veelders@hu.nl
    - Waar ze voor staan
  
  
- ### Strategie
- -	
+ ### Waardedisciplines Tracy & Wiersema
+ - Elk bedrijf kiest 1 hoofdrichting
+ - Hoe je door je klanten gezien wilt worden
+
+#### Product leadership
+-	Superieur merkimago
+-	Beste van dat product
+-	Snelle ontwikkeling
+
+#### Customer Intimacy
+- Hoge klanttevredenheid
+- Optimale dienstverlening
+- Integratie klantsystemen
+
+#### 
