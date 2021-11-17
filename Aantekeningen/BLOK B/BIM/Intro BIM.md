@@ -36,3 +36,5 @@ mail: andre.veelders@hu.nl
 - Hoge betrouwbaarheid
 - Beperkt assortiment
 - Lage kosten
+
+De enige constante is verandering
