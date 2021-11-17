@@ -5,3 +5,8 @@ mail: andre.veelders@hu.nl
  
 
 
+### Organisatie
+- Mensen
+- Middelen
+- Doelstellingen
+
