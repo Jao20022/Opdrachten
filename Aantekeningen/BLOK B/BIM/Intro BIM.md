@@ -16,5 +16,7 @@ mail: andre.veelders@hu.nl
 	  - Spreekt van een vaag toekomstbeeld
 - ##### Missie
    - Waar ze voor staan
-   - 
-  
+ 
+ 
+ ### Strategie
+ -	
