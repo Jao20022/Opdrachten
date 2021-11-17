@@ -10,9 +10,22 @@
           "type": "markdown",
           "state": {
             "file": "BLOK B/BIM/Intro BIM.md",
+            "mode": "preview"
+          }
+        },
+        "group": "f1f4b733b1525c9e"
+      },
+      {
+        "id": "77640910f55ff803",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "BLOK B/BIM/Intro BIM.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "f1f4b733b1525c9e"
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "97bba1b94427b5e0",
+  "active": "77640910f55ff803",
   "lastOpenFiles": [
     "BLOK B/BIM/Intro BIM.md",
     "BLOK B/AI/Getallen.md",
