@@ -30,5 +30,9 @@ Deze link: https://canvas.hu.nl/courses/27194/pages/csc1-beginnen-met-netwerken
 ### Ip adressen
 Twee soorten adressen IPv4 en IPv6
 
+subnetmasker geeft aan welke nummers het het netwerk adres is en welk voor aangesloten systemen
+192.169.100.1
+255.255.255.0 <-- subnetmasker
+
 
 ## OSI Protocol
