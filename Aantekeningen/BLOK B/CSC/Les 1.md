@@ -19,3 +19,9 @@ Deze link: https://canvas.hu.nl/courses/27194/pages/csc1-beginnen-met-netwerken
 - betere prestaties
 - Kan beter beveiligd worden
 - beheer envoudiger want centraal
+
+
+
+### Netwerk kabel
+- Als beide kanten hetzelfde poort hebben heb je een crossover kabel nodig.
+- 
