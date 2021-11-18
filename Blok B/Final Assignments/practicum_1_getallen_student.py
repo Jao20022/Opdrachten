@@ -58,6 +58,10 @@ def ceil(real):
 
 
 def div(n):
+    divisors = []
+    for i in range(1, n + 1):
+        if n % i == 0:
+            divisors.append(i)
     """
     Bepaal alle delers van een geheel getal.
 
@@ -69,11 +73,26 @@ def div(n):
     Returns:
         list: Een gesorteerde lijst met alle delers van `n`.
     """
-    divisors = []
+
     return sorted(divisors)
 
 
 def is_prime(n):
+    if n == 2:
+        return True
+    elif n == 1 or n % 2 == 0:
+        return False
+    numbers = [1]
+    for i in range(3, n + 1, 2):
+        if len(numbers) > 2:
+            return False
+        if n % i == 0:
+            numbers.append(i)
+    if len(numbers) > 2:
+        return False
+    else:
+        return True
+
     """
     Bepaal of gegeven getal een priemgetal is.
 
@@ -90,6 +109,7 @@ def is_prime(n):
 
 
 def primes(num):
+
     """
     Bepaal alle priemgetallen kleiner dan een bepaald geheel getal.
 
@@ -102,10 +122,30 @@ def primes(num):
         list: Een gesorteerde lijst met alle priemgetallen kleiner dan `num`.
     """
     primelist = []
+    if not num > 2:
+        return []
+    for i in range(2, num):
+        prime = True
+        for j in primelist:
+            if i % j == 0:
+                prime = False
+        if prime:
+            primelist.append(i)
     return sorted(primelist)
 
 
 def primefactors(n):
+    factors = []
+    if n < 2:
+        return factors
+    i = 2
+    while not n == 1:
+        if n % i == 0:
+            n = int(n/i)
+            factors.append(i)
+            i = 2
+        else:
+            i += 1
     """
     Bepaal de verzameling van priemfactoren van n.
 
@@ -116,7 +156,7 @@ def primefactors(n):
         list: Een gesorteerde lijst met alle priemfactoren van n. Als n kleiner
             dan 2, retourneer dan een lege lijst `[]`.
     """
-    factors = []
+
     return sorted(factors)
 
 
