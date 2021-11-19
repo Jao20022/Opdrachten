@@ -24,12 +24,16 @@ Let op! Het is niet toegestaan om bestaande modules te importeren en te
 """
 
 # TODO: Vul hier je naam, klas en studentnummer in.
+from math import gcd
+
+
 naam = "Just Oudheusden"
 klas = "B"
 studentnummer = 1815037
 
 
 def is_even(n):
+    # controleert of rest bij delen door 2 0 is. (even is)
 
     if n % 2 == 0:
         return True
@@ -46,18 +50,22 @@ def is_even(n):
 
 
 def floor(real):
+    # gebruikt integer division waarbij het getal wordt afgerond en naar beneden wordt afgerond.
     num = int(real // 1)
     """ Bepaal het grootste gehele getal (int), dat kleiner dan of gelijk is aan real (float). """
     return num
 
 
 def ceil(real):
+    # zelfde methode als bij floor, maar de integer division wordt negatief gedaan en daarna positief gemaakt
     num = int(-(real // -1))
     """ Bepaal het kleinste gehele getal (int), groter dan of gelijk aan real (float). """
     return num
 
 
 def div(n):
+    # gaat alle getallen van 1 tot en met n af, en controleert of deze zonder rest kan delen
+    # als dit kan wordt dit getal aan de lijst divisors toegevoegd
     divisors = []
     for i in range(1, n + 1):
         if n % i == 0:
@@ -78,16 +86,22 @@ def div(n):
 
 
 def is_prime(n):
+    # eerst wordt gecheckt of het getal 2 is. Zo ja wordt True geretourneerd
     if n == 2:
         return True
+    # Daarna wordt gecheckt of het getal 1 is of even is. Zo ja wordt False geretourneerd
     elif n == 1 or n % 2 == 0:
         return False
+    # 1 is altijd deelbaar dus wordt alvas aan de lijst toegevoegd
     numbers = [1]
+    # omdat 1 en 2 al gecheckt zijn begint de loop bij 3, ook is er een stapgrootte van 2 zo, worden alle even getallen overgeslagen
     for i in range(3, n + 1, 2):
         if len(numbers) > 2:
             return False
         if n % i == 0:
+    # Als het getal deelbaar is wordt het aan de lijst toegevoegd
             numbers.append(i)
+    # Als het getal door meer dan 1 en zichzelf deelbaar is (2) dan wordt False geretourneerd
     if len(numbers) > 2:
         return False
     else:
@@ -122,23 +136,31 @@ def primes(num):
         list: Een gesorteerde lijst met alle priemgetallen kleiner dan `num`.
     """
     primelist = []
+    # Als het getal kleiner is dan 2 zijn er geen priemgetallen
     if not num > 2:
         return []
+    # Alle getallen tot num worden gecontroleerd of het priemgetallen zijn.
     for i in range(2, num):
         prime = True
         for j in primelist:
+    # Dit wordt gedaan door te kijken of het door de voorgaande priemgetallen gedeeld kan worden
             if i % j == 0:
                 prime = False
         if prime:
+    # Alle priemgetallen worden aan de lijst primelist toegevoegd
             primelist.append(i)
     return sorted(primelist)
 
 
 def primefactors(n):
     factors = []
+    # Als n kleiner is dan 2 wordt een lege lijst geretourneerd
     if n < 2:
         return factors
     i = 2
+    # in de loop wordt gecheckt of n deelbaar is door i. Tot n gelijk is aan 1
+    # zo niet wordt i met 1 verhoogd tot het wel kan
+    # Wanneer n deelbaar is door i. Wordt n door i gedeeld i aan de lijst toegevoegd en gaat i terug naar 2
     while not n == 1:
         if n % i == 0:
             n = int(n/i)
@@ -159,8 +181,19 @@ def primefactors(n):
 
     return sorted(factors)
 
-
 def gcd(a, b):
+    arr = [a,b]
+    # Gebruikt de Algoritme van Euclides
+    # Als het resultaat 0 is wordt het kleinste getal geretourneerd, anders wordt het kleinste getal van het grootste getal afgetrokken
+    while True:
+        a = max(arr)
+        b = min(arr)
+        index_a = arr.index(a)
+        if a - b == 0:
+            return a
+        else:
+            arr[index_a] = a - b
+
     """
     Bepaal de grootste grootste gemene deler (ook wel 'greatest common divisor', gcd) van twee natuurlijke getallen.
 
@@ -181,6 +214,9 @@ def gcd(a, b):
 
 
 def lcm(a, b):
+    # Gebruikt de formule om de lcm met de gcd te berekenen
+    lcm = int(a * b / gcd(a,b))
+    return lcm
     """
     Bepaal het kleinste gemene veelvoud, kgv (ook wel 'least common multiple', lcm) van twee natuurlijke getallen.
 
@@ -195,6 +231,19 @@ def lcm(a, b):
 
 
 def add_frac(n1, d1, n2, d2):
+    # bepaald de noemer door noemer * deler, en deze twee bij elkaar op te delen
+    # deler wordt bepaald door deler te vermenigvuldigen
+    noemer = n1 * d2 + n2 * d1
+    deler = d1 * d2
+    # Als er een gcd is wordt de noemer en deler door deze gedeeld
+    # Anders is het niet te vereenvoudigen
+    if not gcd(noemer, deler) == 1:
+        deel = gcd(noemer,deler)
+        noemer = noemer / deel
+        deler = deler / deel
+    return noemer, deler
+
+
     """Sommeer twee breuken als breuk. Vereenvoudig de breuk zover als mogelijk.
 
     Args:
