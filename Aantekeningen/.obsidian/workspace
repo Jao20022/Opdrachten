@@ -91,17 +91,8 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "cb7bbf489920a966",
-            "type": "leaf",
-            "state": {
-              "type": "side-panel-control-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
