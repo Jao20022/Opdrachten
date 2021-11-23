@@ -42,6 +42,6 @@ Als je de wortel hebt gevonden is de rest 'gratis'
 		- Kan het gedeeld worden?
 	- Ga naar het volgende priemgetal
 	
-	**
+
 	
 	
