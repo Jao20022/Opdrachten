@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BLOK B/AI/Getallen.md",
+            "file": "BLOK B/AI/AI Intro.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BLOK B/AI/Getallen.md",
+            "file": "BLOK B/AI/AI Intro.md",
             "mode": "source"
           }
         },
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BLOK B/AI/Getallen.md",
+                "file": "BLOK B/AI/AI Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,11 +99,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "97bba1b94427b5e0",
+  "active": "77640910f55ff803",
   "lastOpenFiles": [
+    "BLOK B/AI/AI Intro.md",
     "BLOK B/AI/Getallen.md",
     "conflict-files-obsidian-git.md",
-    "BLOK B/AI/AI Intro.md",
     "BLOK B/CSC/Les 1.md",
     "BLOK B/CSC/Instructies PI.md",
     "BLOK B/BIM/Les 1.md",
