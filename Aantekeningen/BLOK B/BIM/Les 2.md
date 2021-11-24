@@ -92,3 +92,9 @@ Andere weergave voor geclasificeerde stakeholders
 
 
 
+### Medelow's Matrix
+-	De primarie interesse (belang) van een stakeholder
+-	De invloed (macht) Van een stakeholder
+-	En welke relatie(s) heeft de stakeholder met zijn omgeving
+
+![[Pasted image 20211124105925.png]]
