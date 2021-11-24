@@ -21,3 +21,15 @@ Bijvoorbeeld: Klanttevredenheid.*
 -	Vergeet niet de voor** de hand liggende key drivers** (bijvoorbeeld de belangrijktste functie van het product voor de kant)
 -	Gebruik** korte namen** die herkenbaar zijn voor de klant.
 -	Gebruik markt- en klant specifieke namen, geen **generieke namen** (Vervang bijvoorbeeld "gebruiksgemak" door "minimaal aantal acties voor ervaren gebruikers")
+
+
+
+## Lesopdracht
+**Amazon**
+
+- Wat wil de klant?
+	- Gemakkelijk vanuit huis winkelen
+-	Afgeleide doelstelling
+	-	Producten kopen
+- Afgeleide key drivers
+	- 
