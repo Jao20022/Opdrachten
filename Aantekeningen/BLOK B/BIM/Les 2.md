@@ -39,3 +39,8 @@ Bijvoorbeeld: Klanttevredenheid.*
 	Vakbonden - *Groep onder een organisatie die hetzelfde willen*
 	Overheden
 
+#### Stakeholder Analyse
+-	Stakeholder identficeren
+-	Stakeholders classificeren
+-	Stakeholders analyseren
+
