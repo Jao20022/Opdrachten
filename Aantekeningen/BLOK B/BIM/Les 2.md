@@ -91,3 +91,11 @@ Andere weergave voor geclasificeerde stakeholders
 -	Belangrijk om deze relaties weer te geven omdat zij ook elkaar beinvloeden
 
 
+
+
+# Stakeholders amazon
+
+Klanten
+Bezos
+Medewerkers
+Inves
