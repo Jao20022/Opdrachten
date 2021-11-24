@@ -92,10 +92,3 @@ Andere weergave voor geclasificeerde stakeholders
 
 
 
-
-# Stakeholders amazon
-
-Klanten
-Bezos
-Medewerkers
-Investeerders
