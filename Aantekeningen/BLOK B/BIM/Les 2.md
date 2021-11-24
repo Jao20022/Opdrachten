@@ -1,5 +1,4 @@
-#### Stakeholder
-- Iemand met invloed op bedrijven, project, traject.
+
 
 
 #### Identificatie
@@ -23,15 +22,5 @@ Bijvoorbeeld: Klanttevredenheid.*
 -	Gebruik markt- en klant specifieke namen, geen **generieke namen** (Vervang bijvoorbeeld "gebruiksgemak" door "minimaal aantal acties voor ervaren gebruikers")
 
 
-
-## Lesopdracht
-**Amazon**
-
-- Wat wil de klant?
-	- Gemakkelijk vanuit huis winkelen
--	Afgeleide doelstelling
-	-	Producten kopen
-- Afgeleide key drivers
-	- Makkelijk te gebruiken website
-	- Snelle levering
-	- Lage prijzen
+## Stakeholder
+"A stakeholder in an organization is any group or individual who can effect or is affected by the achievements of the organization's objectives"
