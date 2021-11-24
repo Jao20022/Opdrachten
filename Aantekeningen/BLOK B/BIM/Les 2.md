@@ -45,13 +45,10 @@ Bijvoorbeeld: Klanttevredenheid.*
 -	Stakeholders analyseren
 
 ### Methodes om Stakeholders te identificeren
-```python
-def functie(variabele):
-	for i
-```
+
 **Achtergrond onderzoek**
 
--	Lees bestaande literatuur/ websites/e.d. om te kijken wie er een belang bij het product/systeem heeft/
+-	Lees bestaande literatuur/ websites/e.d. om te kijken wie er een belang bij het product/systeem heeft.
 -	Wie zijn betrokken bij het product/systeem
 -	Welke belangen zijn er.
 -	Zijn er groepen/organisaties die belangen behartigen
