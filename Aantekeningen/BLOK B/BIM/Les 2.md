@@ -65,5 +65,13 @@ Bijvoorbeeld: Klanttevredenheid.*
 -	Competitors
 
 ### Stakeholder Classificeren
-[Interne Stakeholders]|[externestakeholders]
-[Product]
+| Interne Stakeholders | Externe Stakeholders |
+| -------------------- | -------------------- | --- | --- | --- |
+| Product team         | Leverancier          |     |     |     |
+| Managers             | Klanten              |     |     |     |
+| Aandeelhouders       | Media                |     |     |     |
+| Investeerders        | Eindgebruikers       |     |     |     |
+| Ondernemingsraad     |                      |     |     |     |
+
+**Primair**: direct belang en grote invloed
+**Secundair**: geen direct belang maar wel invloed
