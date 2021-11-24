@@ -88,5 +88,6 @@ Andere weergave voor geclasificeerde stakeholders
 	4. Wijdere omgeving
 
 -	Stakeholders hebben relaties met elkaar
--	Belangrijk om deze relaties weer te ge
+-	Belangrijk om deze relaties weer te geven omdat zij ook elkaar beinvloeden
+
 
