@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "9669063f57bbc362",
+        "id": "26b1d181b9d5fe60",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -15,7 +15,7 @@
         }
       },
       {
-        "id": "26b1d181b9d5fe60",
+        "id": "2fffcf7c7170d0e1",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -105,17 +105,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "26b1d181b9d5fe60",
+  "active": "2fffcf7c7170d0e1",
   "lastOpenFiles": [
     "BLOK B/BIM/Les 2.md",
+    "Afbeeldingen/Pasted image 20211124100840.png",
     "BLOK B/AI/Opdrachten/1.30.md",
     "BLOK B/AI/Opdrachten/1.46.md",
     "BLOK B/BIM/Les 1.md",
     "conflict-files-obsidian-git.md",
-    "Pasted image 20211123092916.png",
-    "Pasted image 20211123092931.png",
+    "Afbeeldingen/Pasted image 20211123092916.png",
+    "Afbeeldingen/Pasted image 20211123092931.png",
     "BLOK B/AI/Getallen.md",
-    "BLOK B/AI/AI Intro.md",
-    "BLOK B/CSC/Les 1.md"
+    "BLOK B/AI/AI Intro.md"
   ]
 }

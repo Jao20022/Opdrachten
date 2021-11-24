@@ -26,7 +26,7 @@ Bijvoorbeeld: Klanttevredenheid.*
 "A stakeholder in an organization is any group or individual who can effect or is affected by the achievements of the organization's objectives"
 
 
-#### Wie zijn de stakeholder(s)?
+### Wie zijn de stakeholder(s)?
 -	**Opdrachtgever**
 	De opdrachtgever of de eigenaar van het product
 -	**Klant**
@@ -39,13 +39,16 @@ Bijvoorbeeld: Klanttevredenheid.*
 	Vakbonden - *Groep onder een organisatie die hetzelfde willen*
 	Overheden
 
-#### Stakeholder Analyse
+### Stakeholder Analyse
 -	Stakeholder identficeren
 -	Stakeholders classificeren
 -	Stakeholders analyseren
 
-#### Methodes om Stakeholders te identificeren
-
+### Methodes om Stakeholders te identificeren
+```python
+def functie(variabele):
+	for i
+```
 **Achtergrond onderzoek**
 
 -	Lees bestaande literatuur/ websites/e.d. om te kijken wie er een belang bij het product/systeem heeft/
@@ -53,3 +56,13 @@ Bijvoorbeeld: Klanttevredenheid.*
 -	Welke belangen zijn er.
 -	Zijn er groepen/organisaties die belangen behartigen
 -	Wie zijn in de markt actief?
+
+**Stakeholder wheel**
+![[Pasted image 20211124100840.png]]
+-	Customers
+-	Partners
+-	Suppliers
+-	Regulators
+-	Employees
+-	Owners
+-	Competitors
