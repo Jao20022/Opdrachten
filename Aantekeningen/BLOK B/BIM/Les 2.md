@@ -66,12 +66,27 @@ Bijvoorbeeld: Klanttevredenheid.*
 
 ### Stakeholder Classificeren
 | Interne Stakeholders | Externe Stakeholders |
-| -------------------- | -------------------- | --- | --- | --- |
-| Product team         | Leverancier          |     |     |     |
-| Managers             | Klanten              |     |     |     |
-| Aandeelhouders       | Media                |     |     |     |
-| Investeerders        | Eindgebruikers       |     |     |     |
-| Ondernemingsraad     |                      |     |     |     |
+| -------------------- | -------------------- |
+| Product team         | Leverancier          |
+| Managers             | Klanten              |
+| Aandeelhouders       | Media                |
+| Investeerders        | Eindgebruikers       |
+| Ondernemingsraad     |                      |
+
 
 **Primair**: direct belang en grote invloed
 **Secundair**: geen direct belang maar wel invloed
+
+#### Ui diagram
+Andere weergave voor geclasificeerde stakeholders
+-	Geeft een visueel beeld van de stakeholders
+-	Bestaat uit vier of vijf ringen
+-	van binnen naar buiten:
+	1. Product/systeem
+	2. Actoren van het systeem
+	3. Business stakeholders
+	4. Wijdere omgeving
+
+-	Stakeholders hebben relaties met elkaar
+-	Belangrijk om deze relaties weer te ge
+
