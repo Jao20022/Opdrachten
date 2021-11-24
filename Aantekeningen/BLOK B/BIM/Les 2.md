@@ -90,9 +90,9 @@ Andere weergave voor geclasificeerde stakeholders
 -	Stakeholders hebben relaties met elkaar
 -	Belangrijk om deze relaties weer te geven omdat zij ook elkaar beinvloeden
 
+### Stakeholder Analyseren
 
-
-### Medelow's Matrix
+#### Medelow's Matrix
 -	De primarie interesse (belang) van een stakeholder
 -	De invloed (macht) Van een stakeholder
 -	En welke relatie(s) heeft de stakeholder met zijn omgeving
