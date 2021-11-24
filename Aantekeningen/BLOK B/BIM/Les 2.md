@@ -98,4 +98,4 @@ Andere weergave voor geclasificeerde stakeholders
 Klanten
 Bezos
 Medewerkers
-Inves
+Investeerders
