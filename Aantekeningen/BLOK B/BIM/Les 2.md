@@ -24,3 +24,18 @@ Bijvoorbeeld: Klanttevredenheid.*
 
 ## Stakeholder
 "A stakeholder in an organization is any group or individual who can effect or is affected by the achievements of the organization's objectives"
+
+
+#### Wie zijn de stakeholder(s)?
+-	**Opdrachtgever**
+	De opdrachtgever of de eigenaar van het product
+-	**Klant**
+	Wie het systeem gaat kopen
+-	**Gebruiker**
+	Wie het systeem gaat gerbuiken.
+-	**Andere belanghebbende (extern)?**
+	Verkoopkanalen
+	Onderhoudspersoneel
+	Vakbonden - *Groep onder een organisatie die hetzelfde willen*
+	Overheden
+
