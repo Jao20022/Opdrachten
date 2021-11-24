@@ -44,3 +44,12 @@ Bijvoorbeeld: Klanttevredenheid.*
 -	Stakeholders classificeren
 -	Stakeholders analyseren
 
+#### Methodes om Stakeholders te identificeren
+
+**Achtergrond onderzoek**
+
+-	Lees bestaande literatuur/ websites/e.d. om te kijken wie er een belang bij het product/systeem heeft/
+-	Wie zijn betrokken bij het product/systeem
+-	Welke belangen zijn er.
+-	Zijn er groepen/organisaties die belangen behartigen
+-	Wie zijn in de markt actief?
