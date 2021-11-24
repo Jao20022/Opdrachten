@@ -63,3 +63,7 @@ Bijvoorbeeld: Klanttevredenheid.*
 -	Employees
 -	Owners
 -	Competitors
+
+### Stakeholder Classificeren
+[Interne Stakeholders]|[externestakeholders]
+[Product]
