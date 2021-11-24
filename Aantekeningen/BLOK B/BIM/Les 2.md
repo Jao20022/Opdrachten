@@ -13,7 +13,7 @@
 -	Wat zijn de doelstellingen van de klant?
 -	Hoe bereikt de klant zijn doelstellingen?
 
-*Key driver is iets dat de verandering om de prgamoesatoe creert em ,ptoveert Bij voorkeur een**Zelfstandig Naamwoord.**
+*Key driver is iets dat de verandering om de organisatie creert en provide Bij voorkeur een **Zelfstandig Naamwoord.**
 Bijvoorbeeld: Klanttevredenheid.*
 	
 ### Tips Key driver
@@ -32,4 +32,6 @@ Bijvoorbeeld: Klanttevredenheid.*
 -	Afgeleide doelstelling
 	-	Producten kopen
 - Afgeleide key drivers
-	- 
+	- Makkelijk te gebruiken website
+	- Snelle levering
+	- Lage prijzen
