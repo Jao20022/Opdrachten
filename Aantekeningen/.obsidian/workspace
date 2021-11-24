@@ -20,7 +20,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BLOK B/BIM/Les 2.md",
+            "file": "BLOK B/CSC/Les 1.md",
             "mode": "source"
           }
         }
@@ -63,8 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c6aceca44a2a1c15",
@@ -80,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BLOK B/BIM/Les 2.md",
+                "file": "BLOK B/CSC/Les 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,6 +106,8 @@
   },
   "active": "cfbfa97de03887d1",
   "lastOpenFiles": [
+    "BLOK B/CSC/Les 1.md",
+    "BLOK B/CSC/Instructies PI.md",
     "BLOK B/BIM/Les 2.md",
     "Afbeeldingen/Pasted image 20211124100840.png",
     "BLOK B/AI/Opdrachten/1.30.md",
@@ -114,8 +115,6 @@
     "BLOK B/BIM/Les 1.md",
     "conflict-files-obsidian-git.md",
     "Afbeeldingen/Pasted image 20211123092916.png",
-    "Afbeeldingen/Pasted image 20211123092931.png",
-    "BLOK B/AI/Getallen.md",
-    "BLOK B/AI/AI Intro.md"
+    "Afbeeldingen/Pasted image 20211123092931.png"
   ]
 }
