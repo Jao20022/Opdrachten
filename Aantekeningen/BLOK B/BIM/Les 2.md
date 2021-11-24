@@ -8,3 +8,7 @@
 
 #### Analyse
 
+#### Klantdoelstelling
+-	Wat wil de klant?
+-	Wat zijn de doelstellingen van de klant?
+-	Hoe bereikt de klant zijn doelstellingen?

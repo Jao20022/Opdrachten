@@ -89,6 +89,14 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "cfb72ccd0e997560",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ]
       }
@@ -100,14 +108,14 @@
   "active": "26b1d181b9d5fe60",
   "lastOpenFiles": [
     "BLOK B/BIM/Les 2.md",
+    "BLOK B/AI/Opdrachten/1.30.md",
+    "BLOK B/AI/Opdrachten/1.46.md",
     "BLOK B/BIM/Les 1.md",
     "conflict-files-obsidian-git.md",
     "Pasted image 20211123092916.png",
     "Pasted image 20211123092931.png",
     "BLOK B/AI/Getallen.md",
     "BLOK B/AI/AI Intro.md",
-    "BLOK B/CSC/Les 1.md",
-    "BLOK B/CSC/Instructies PI.md",
-    "Opdrachten/1.36.md"
+    "BLOK B/CSC/Les 1.md"
   ]
 }
