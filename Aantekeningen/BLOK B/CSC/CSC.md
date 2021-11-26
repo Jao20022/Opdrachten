@@ -4,7 +4,7 @@ Deze link: https://canvas.hu.nl/courses/27194/assignments/160802
 # Begrippenlijst
 - IP adres - adres van een aparaat op een netwerk
 - Mac adress - adres van het aparaat zit ingebakken in de netwerkkaart
-- ARP - Address Resol
+- ARP - Address Resolution Protocol
 
 ### Netwerk
 - Computersystemen
@@ -41,6 +41,8 @@ subnetmasker geeft aan welke nummers het het netwerk adres is en welk voor aange
 ### Mac Adres
 Statisch zit in de netwerkaart ingebakken
 
+### ARP
+Wordt gebruikt om het mac adress van een aparaat op te vragen
 
 
 
