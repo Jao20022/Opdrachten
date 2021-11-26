@@ -13,10 +13,10 @@
             "mode": "preview"
           }
         },
-        "group": "f1f4b733b1525c9e"
+        "group": "0589094fb67c30a2"
       },
       {
-        "id": "77640910f55ff803",
+        "id": "456d8b699f9d1a44",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -25,7 +25,7 @@
             "mode": "source"
           }
         },
-        "group": "f1f4b733b1525c9e"
+        "group": "0589094fb67c30a2"
       }
     ],
     "direction": "vertical"
@@ -91,25 +91,33 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "f3137c46d7aa1dc1",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "77640910f55ff803",
+  "active": "456d8b699f9d1a44",
   "lastOpenFiles": [
     "BLOK B/BIM/Les 2.md",
+    "BLOK B/AI/Opdrachten/1.43.md",
+    "BLOK B/AI/Opdrachten/1.42.md",
+    "BLOK B/AI/Opdrachten/1.44.md",
+    "BLOK B/AI/Opdrachten/1.45.md",
+    "BLOK B/AI/Opdrachten/1.46.md",
+    "BLOK B/AI/Opdrachten/1.29.md",
     "BLOK B/CSC/CSC.md",
     "BLOK B/BIM/Les 1.md",
-    "BLOK B/AI/AI Intro.md",
-    "BLOK B/CSC/IP adres.md",
-    "BLOK B/CSC/Les 2.md",
-    "BLOK B/AI/Opdrachten/1.46.md",
-    "BLOK B/AI/Getallen.md",
-    "BLOK B/AI/Opdrachten/1.30.md",
-    "BLOK B/AI/Opdrachten/1.29.md"
+    "BLOK B/AI/AI Intro.md"
   ]
 }
