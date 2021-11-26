@@ -4,26 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "26b1d181b9d5fe60",
+        "id": "97bba1b94427b5e0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BLOK B/BIM/Les 2.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "cfbfa97de03887d1",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "BLOK B/CSC/Les 1.md",
+            "file": "BLOK B/CSC/CSC.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "f1f4b733b1525c9e"
+      },
+      {
+        "id": "77640910f55ff803",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "BLOK B/CSC/CSC.md",
+            "mode": "source"
+          }
+        },
+        "group": "f1f4b733b1525c9e"
       }
     ],
     "direction": "vertical"
@@ -79,42 +81,35 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BLOK B/CSC/Les 1.md",
+                "file": "BLOK B/CSC/CSC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "4ccc77d893ac94e0",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "cfbfa97de03887d1",
+  "active": "77640910f55ff803",
   "lastOpenFiles": [
-    "BLOK B/CSC/Les 1.md",
-    "BLOK B/CSC/Instructies PI.md",
-    "BLOK B/BIM/Les 2.md",
-    "Afbeeldingen/Pasted image 20211124100840.png",
-    "BLOK B/AI/Opdrachten/1.30.md",
+    "BLOK B/CSC/CSC.md",
+    "BLOK B/CSC/IP adres.md",
+    "BLOK B/CSC/Les 2.md",
     "BLOK B/AI/Opdrachten/1.46.md",
-    "BLOK B/BIM/Les 1.md",
-    "conflict-files-obsidian-git.md",
-    "Afbeeldingen/Pasted image 20211123092916.png",
-    "Afbeeldingen/Pasted image 20211123092931.png"
+    "BLOK B/AI/AI Intro.md",
+    "BLOK B/AI/Getallen.md",
+    "BLOK B/AI/Opdrachten/1.30.md",
+    "BLOK B/AI/Opdrachten/1.29.md",
+    "BLOK B/AI/Opdrachten/1.31.md",
+    "BLOK B/AI/Opdrachten/1.33.md"
   ]
 }

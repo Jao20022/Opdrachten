@@ -1,6 +1,10 @@
 ### Opzetten pi
 Deze link: https://canvas.hu.nl/courses/27194/assignments/160802
 
+# Begrippenlijst
+- IP adres - adres van een aparaat op een netwerk
+- Mac adress - adres van het aparaat zit ingebakken in de netwerkkaart
+- ARP - Address Resol
 
 ### Netwerk
 - Computersystemen
@@ -33,6 +37,11 @@ Twee soorten adressen IPv4 en IPv6
 subnetmasker geeft aan welke nummers het het netwerk adres is en welk voor aangesloten systemen
 192.169.100.1
 255.255.255.0 <-- subnetmasker
+
+### Mac Adres
+Statisch zit in de netwerkaart ingebakken
+
+
 
 
 ## OSI Protocol
