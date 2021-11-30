@@ -4,35 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "a1b39c772ce1cd9f",
-        "type": "split",
-        "children": [
-          {
-            "id": "26b1d181b9d5fe60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BLOK B/AI/Opdrachten/1.49.md",
-                "mode": "preview"
-              }
-            },
-            "group": "89e23c22e6b71983"
-          },
-          {
-            "id": "c1cf5e3ea036c40a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BLOK B/AI/Opdrachten/1.49.md",
-                "mode": "source"
-              }
-            },
-            "group": "89e23c22e6b71983"
+        "id": "c1cf5e3ea036c40a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "BLOK B/AI/Getallen.md",
+            "mode": "preview"
           }
-        ],
-        "direction": "horizontal"
+        },
+        "group": "1b59d0a5fa56774f"
+      },
+      {
+        "id": "42cc0df4b5a063a9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "BLOK B/AI/Getallen.md",
+            "mode": "source"
+          }
+        },
+        "group": "1b59d0a5fa56774f"
       }
     ],
     "direction": "vertical"
@@ -88,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BLOK B/AI/Opdrachten/1.49.md",
+                "file": "BLOK B/AI/Getallen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,8 +106,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "c1cf5e3ea036c40a",
+  "active": "42cc0df4b5a063a9",
   "lastOpenFiles": [
+    "BLOK B/AI/Getallen.md",
     "BLOK B/AI/Opdrachten/1.49.md",
     "1.50.md",
     "BLOK B/AI/Opdrachten/1.48.md",
@@ -123,7 +117,6 @@
     "1.51.md",
     "BLOK B/CSC/CSC.md",
     "BLOK B/BIM/Les 2.md",
-    "BLOK B/CSC/Les 1.md",
-    "BLOK B/CSC/Instructies PI.md"
+    "BLOK B/CSC/Les 1.md"
   ]
 }

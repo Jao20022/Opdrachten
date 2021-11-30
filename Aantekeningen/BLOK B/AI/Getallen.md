@@ -45,3 +45,7 @@ Als je de wortel hebt gevonden is de rest 'gratis'
 
 	
 ![[Pasted image 20211123092931.png]]
+
+# Logaritme en rijen
+## logaritme
+### 
