@@ -54,3 +54,8 @@ Als je de wortel hebt gevonden is de rest 'gratis'
 $^g \log(a) - ^g\log(b) = ^g\log(a/b)$ dus $^2\log(2^3) = 3 \times ^2\log(2)$
 
 ## Rijen en sommen
+-	Een lijst met getallen
+	-	Hebben een index
+	-	Volgorde is belangrijk
+
+**rekenkundige rij** - verandert met een constante
