@@ -50,4 +50,4 @@ Als je de wortel hebt gevonden is de rest 'gratis'
 ## logaritme
 - Grondtal geeft groeisnelheid
 - De expontent is hoeveel tijdseenheden je groeit
-- 
+
