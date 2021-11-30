@@ -52,3 +52,4 @@ Als je de wortel hebt gevonden is de rest 'gratis'
 - De expontent is hoeveel tijdseenheden je groeit
 
 $^g \log(a) - ^g\log(b) = ^g\log(a/b)$ dus $^2\log(2^3) = 3 \times ^2\log(2)$
+
