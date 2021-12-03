@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BLOK B/AI/Opdrachten/1.49.md",
+            "file": "BLOK B/BIM/Les 1.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BLOK B/AI/Opdrachten/1.49.md",
+            "file": "BLOK B/BIM/Les 1.md",
             "mode": "source"
           }
         },
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c6aceca44a2a1c15",
@@ -82,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BLOK B/AI/Opdrachten/1.49.md",
+                "file": "BLOK B/BIM/Les 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +109,7 @@
   },
   "active": "42cc0df4b5a063a9",
   "lastOpenFiles": [
+    "BLOK B/BIM/Les 1.md",
     "BLOK B/AI/Opdrachten/1.49.md",
     "BLOK B/AI/Opdrachten/1.48.md",
     "BLOK B/AI/Opdrachten/1.47.md",
@@ -118,7 +118,6 @@
     "BLOK B/AI/Opdrachten/1.51.md",
     "BLOK B/AI/Opdrachten/1.46.md",
     "BLOK B/AI/Opdrachten/1.31.md",
-    "BLOK B/CSC/CSC.md",
-    "BLOK B/BIM/Les 2.md"
+    "BLOK B/CSC/CSC.md"
   ]
 }
