@@ -1,7 +1,10 @@
 ##### Types of notation
--	Big-$\Theta$ *(Big Theta)* - *Upper and lower running time*
--	Big-O *(Big O)* - *Only shows worst-case running time*
--	Big-$\Omega$ *(Big Omega)*
+-	Big-$\Theta$ *(Big Theta)* - *Tight bound*
+	-	Shows the upper and lower running time
+-	Big-O *(Big O)* - *Upper bound*
+	-	Gives the upper running time
+-	Big-$\Omega$ *(Big Omega)* - *Lower bound*
+	-	Gives the lower running time
 
 
 
