@@ -22,9 +22,9 @@ Let op! Het is niet toegestaan om bestaande modules te importeren en te
 """
 
 # TODO: Vul hier je naam, klas en studentnummer in.
-naam = ""
-klas = ""
-studentnummer = -1
+naam = "Just Oudheusden"
+klas = "B"
+studentnummer = 5
 
 """
 1.  Sorteeralgoritme
@@ -40,7 +40,41 @@ studentnummer = -1
         lijst aanneemt bij álle tussenstappen bij toepassing van
         bovenstaand sorteeralgoritme.
 """
-        # TODO: [geef hier je antwoord]
+        # TODO: [[4,3,1,2],[3,4,1,2],[3,1,4,2],[1,3,4,2],[1,3,2,4],[1,2,3,4]
+''''
+[ 4, 3, 1, 2 ]
+        1. vergelijk 0 met 1
+        2. 1 is groter dan 0 dus verwissel ze
+[3, 4, 1, 2]
+        4. vergelijk 0 met 1
+        5. 0 is niet groter dan 1 dus er gebeurt niks
+        6. vergelijk 1 met 2
+        7. 1 is groter dan 2 dus verwissel ze
+[3, 1, 4, 2]
+        8. vergelijk 0 met 1
+        9. 0 is groter dan 1 dus verwissel ze
+[1, 3, 4, 2]
+        10. vergelijk 0 met 1
+        11. 0 is niet groter dan 1 dus er gebeurt niks
+        12. vergelijk 1 met 2
+        13. 1 is niet groter dan 2 dus er gerbeurt niks
+        14. vergelijk 2 met 3
+        15. 2 is groter dan 3 dus verwissel ze
+[1, 3, 2, 4]
+        16. vergelijk 0 met 1
+        17. 0 is niet groter dan 1 dus er gebeurt niks
+        18. vergelijk 1 met 2
+        19. 1 is groter dan 2 dus verwissel ze
+[1, 2, 3, 4]
+        20. vergelijk 0 met 1
+        21. 0 is niet groter dan 1 dus er gebeurt niks
+        20. vergelijk 1 met 2
+        21. 1 is niet groter dan 2 dus er gebeurt niks
+        20. vergelijk 2 met 3
+        21. 2 is niet groter dan 3 dus er gebeurt niks
+        22. klaar
+'''
+
 """
 
     1b. Implementatie
@@ -54,7 +88,7 @@ studentnummer = -1
             Hoeveel vergelijkingen (zoals beschreven in stap 1. van de
             pseudocode) zijn nodig geweest?
 """
-            # TODO: [geef hier je antwoord]
+            # TODO: [[1,2,3] het algoritme is in 2 stappen klaar]
 """
 
 
@@ -62,7 +96,7 @@ studentnummer = -1
             sorteeralgoritme het minst snel klaar (worst-case scenario)?
             Hoeveel vergelijkingen zijn nodig geweest?
 """
-            # TODO: [geef hier je antwoord]
+            # TODO: [[3,2,1] het algoritme is in 6 stappen klaar]
 """
 
 
@@ -73,6 +107,8 @@ studentnummer = -1
             Hoeveel vergelijkingen zijn er nodig?
 """
             # TODO: [geef hier je antwoord]
+            # TODO: Best Case: [1,2,3,4] het algoritme is in 3 stappen klaar
+            # TODO: Worst Case: [4,3,2,1] het algoritme is in 12 stappen klaar
 """
 
 
@@ -85,11 +121,26 @@ studentnummer = -1
             Hoeveel vergelijkingen zijn er nodig?
 """
             # TODO: [geef hier je antwoord]
+            # TODO: Best case = [1,2,...,n] er zijn n-1 stappen nodig
+            # TODO: Worst case = [n,...,2,1] er zijn (n-1)*n stappen nodig
 """
 """
 
 
 def my_sort(lst):
+    # kopie van lst wordt gemaakt
+    lst_sorted = lst.copy()
+    i = 0
+    # vergelijkt i met de volgende in de reeks, als de volgorde niet klopt worden ze verwisselt en gaat i terug naar 0
+    # anders wordt i met 1 verhoogt en wordt het herhaalt
+    while i < len(lst_sorted) -1:
+        if lst_sorted[i] > lst_sorted[i + 1]:
+            lst_sorted[i],lst_sorted[i+1] = lst_sorted[i+1], lst_sorted[i]
+            i = 0
+        else:
+            i += 1
+
+
     """
     Sorteer gegeven lijst volgens het algoritme zoals beschreven in de pseudocode.
 
@@ -106,11 +157,15 @@ def my_sort(lst):
     Returns:
         list: Een nieuwe, gesorteerde variant van lijst `lst`.
     """
-    lst_sorted = None
     return lst_sorted
 
 
 def linear_search_recursive(lst, target):
+    # Controleert voor elke index of deze overeenkomt met de target.
+    # Als de loop geen True retourneerd wordt False geretourneerd
+    for i in range(len(lst)):
+        if lst[i] == target:
+            return True
     """
     Zoek een element in de gegeven lijst door middel van recursief lineair zoeken.
 
@@ -127,6 +182,28 @@ def linear_search_recursive(lst, target):
 
 
 def binary_search_recursive(lst, target):
+    # Variable worden aangemaakt
+    # minumum is eerste index van lst
+    minimum = 0
+    # maximum is de hoogste index uit lst
+    maximum = len(lst) -1
+    # mid is een integer
+    mid = int
+    while True:
+    # het gemiddelde wordt van de min en max berekend en naar beneden afgerond
+        mid = int(((minimum + maximum)/2) // 1)
+    # Als minimum groter is dan maximum zit de target niet in de lijst en wordt False geretourneerd
+        if minimum > maximum:
+            return False
+    # Als mid gelijk is aan de target wordt True geretourneerd
+        elif lst[mid] == target:
+            return True
+    # Als mid kleiner is dan de target wordt minimum verhoogt naar mid + 1
+        elif lst[mid] < target:
+            minimum = mid +1
+    # Anders wordt maximum verlaag naar mid -1
+        else:
+            maximum = mid -1
     """
     Zoek een element in de gegeven lijst door middel van recursief binair zoeken.
 
@@ -140,7 +217,7 @@ def binary_search_recursive(lst, target):
     Returns:
         bool: Of het element in de lijst voorkomt.
     """
-    return False
+
 
 
 """
