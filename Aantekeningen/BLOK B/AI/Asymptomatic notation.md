@@ -1,3 +1,10 @@
+##### Types of notation
+-	Big-$\Theta$ *(Big Theta)* - *Upper and lower running time*
+-	Big-O *(Big O)* - *Only shows worst-case running time*
+-	Big-$\Omega$ *(Big Omega)*
+
+
+
 ##### Types of fucntions in order of growth speed
 
 1.  Constant functions - *A constant number*
