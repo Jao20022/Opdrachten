@@ -24,7 +24,7 @@ Let op! Het is niet toegestaan om bestaande modules te importeren en te
 # TODO: Vul hier je naam, klas en studentnummer in.
 naam = "Just Oudheusden"
 klas = "B"
-studentnummer = 5
+studentnummer = 1815037
 
 """
 1.  Sorteeralgoritme

@@ -128,36 +128,45 @@ studentnummer = 5
 
 
 def my_sort(lst):
-    # kopie van lst wordt gemaakt
-    lst_sorted = lst.copy()
-    i = 0
-    # vergelijkt i met de volgende in de reeks, als de volgorde niet klopt worden ze verwisselt en gaat i terug naar 0
-    # anders wordt i met 1 verhoogt en wordt het herhaalt
-    while i < len(lst_sorted) -1:
-        if lst_sorted[i] > lst_sorted[i + 1]:
-            lst_sorted[i],lst_sorted[i+1] = lst_sorted[i+1], lst_sorted[i]
-            i = 0
-        else:
-            i += 1
-
-
-    """
-    Sorteer gegeven lijst volgens het algoritme zoals beschreven in de pseudocode.
-
-    1. Startend vanaf het begin van een lijst, vergelijk elk element met zijn volgende buur.
-    2. Als het element groter is dan zijn volgende buur, verwissel ze van plaats.
-    3. Doorloop zo de lijst tot het eind.
-    4. Als er verwisselingen zijn geweest bij stap 2., ga naar stap 1.
-
-    Zorg dat de gegeven lijst niet verandert, maar geef een nieuwe, gesorteerde variant van de lijst terug.
-
-    Args:
-        lst (list): Een lijst met elementen van gelijk type, bijvoorbeeld gehele getallen.
-
-    Returns:
-        list: Een nieuwe, gesorteerde variant van lijst `lst`.
-    """
+    step_one = lst[0:2]
+    if step_one[0] > step_one[-1]:
+        step_one.reverse()
+    step_two = lst[2:4]
+    if step_two[0] > step_two[-1]:
+        step_two.reverse()
+    step_three = lst[4:6]
+    if step_three[0] > step_three[-1]:
+        step_three.reverse()
+    lst_sorted = step_one + step_two + step_three
+    print(step_one)
+    print(step_two)
+    print(step_three)
+    print(lst_sorted)
+    while True:
+        step_four = lst_sorted[0:2]
+        if step_four[0] > step_four[1]:
+            step_four.reverse()
+        step_five = lst_sorted[1:3]
+        if step_five[0] > step_five[1]:
+            step_five.reverse()
+        step_six = lst_sorted[2:4]
+        if step_six[0] > step_six[1]:
+            step_six.reverse()
+        step_seven = lst_sorted[3:5]
+        if step_seven[0] > step_seven[1]:
+            step_seven.reverse()
+        step_eight = lst_sorted[4:6]
+        if step_eight[0] > step_eight[1]:
+            step_eight.reverse()
+        step_nine = lst_sorted[5:7]
+        if step_nine[0] > step_six[1]:
+            step_six.reverse()
+        lst_sorted = step_four + step_five + step_six
+        if lst.sort() == lst_sorted:
+            break
     return lst_sorted
+
+
 
 
 def linear_search_recursive(lst, target):
