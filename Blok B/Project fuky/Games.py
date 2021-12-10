@@ -1,6 +1,0 @@
-file_in = (open('steam.json', 'r'))
-file_out = open('steam2.json', 'w')
-print('start')
-read  = file_in.read()
-file_out.write(read)
-print('done')
