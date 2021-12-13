@@ -11,9 +11,9 @@ Gezegd wordt: "Het ging eigenlijk wel goed" Probeer open te staan dat er altijd 
 ##### Maak fouten
 <u>KALM:</u>
 -	Keep - *Wat gaat goed*
--	Add - *Wat kunnen *
--	Less
--	More
+-	Add - *Wat kunnen we proberen*
+-	Less - *Wat moeten we minder doen*
+-	More - *Wat moeten we meer doen*
 
 ### checklist reflectie
 1.	Funtionaliteit bespreken
