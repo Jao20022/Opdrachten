@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BLOK B/AI/Asymptomatic notation.md",
+            "file": "BLOK B/BIM/Business Systems.md",
             "mode": "preview"
           }
         },
@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BLOK B/AI/Asymptomatic notation.md",
+            "file": "BLOK B/BIM/Business Systems.md",
             "mode": "source"
           }
         },
@@ -65,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c6aceca44a2a1c15",
@@ -81,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BLOK B/AI/Asymptomatic notation.md",
+                "file": "BLOK B/BIM/Business Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,25 +100,34 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "c7b561af8edaff94",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 264.5,
     "collapsed": true
   },
-  "active": "c1cf5e3ea036c40a",
+  "active": "42cc0df4b5a063a9",
   "lastOpenFiles": [
-    "BLOK B/AI/Asymptomatic notation.md",
+    "BLOK B/BIM/Business Systems.md",
+    "conflict-files-obsidian-git.md",
+    "Pasted image 20211124105925.png",
     "Reflectie.md",
+    "BLOK B/BIM/Les 2.md",
+    "BLOK B/BIM/Les 1.md",
+    "BLOK B/BIM/Customer Journey.md",
+    "BLOK B/AI/Asymptomatic notation.md",
     "BLOK B/AI/Opdrachten/1.42.md",
-    "BLOK B/AI/Opdrachten/1.36.md",
-    "BLOK B/AI/Opdrachten/1.35.md",
-    "BLOK B/AI/Opdrachten/1.34.md",
-    "BLOK B/AI/Opdrachten/1.33.md",
-    "BLOK B/AI/Opdrachten/1.32.md",
-    "BLOK B/AI/Opdrachten/1.31.md",
-    "BLOK B/AI/Opdrachten/1.30.md"
+    "BLOK B/AI/Opdrachten/1.36.md"
   ]
 }

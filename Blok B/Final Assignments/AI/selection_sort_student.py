@@ -24,7 +24,7 @@ def find_index_of_minimum(lst, start_index=0):
     """ Vind de locatie van het minimum in lijst lst vanaf een gegeven start_index (int). """
     minimum = lst[start_index]
     index_of_minimum = start_index
-    for i in range(index_of_minimum, len(lst)-1):
+    for i in range(index_of_minimum, len(lst)):
         if lst[i] < minimum:
             minimum = lst[i]
             index_of_minimum = i
@@ -51,7 +51,7 @@ def selection_sort(lst):
     lst_sorted = lst.copy()
 
     # Implementeer selection sort met behulp van swap() en find_index_of_minimum()
-    for i in range(0,len(lst_sorted)-1):
+    for i in range(0,len(lst_sorted)):
         swap(lst_sorted,i,find_index_of_minimum(lst_sorted,i))
     # Retourneer een gesorteerde variant van de lijst
     return lst_sorted

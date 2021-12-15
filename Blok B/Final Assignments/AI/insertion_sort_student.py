@@ -16,6 +16,18 @@ Let op! Het is niet toegestaan om bestaande modules te importeren en te
 
 
 def insert(lst, grens, waarde):
+    while grens >= 0:
+        if lst[grens] > waarde:
+            lst[grens+1] = lst[grens]
+        if lst[grens] < waarde:
+            lst[grens+1] = waarde
+            grens = 0
+        elif grens == 0:
+            lst[grens] = waarde
+            grens = 0
+        grens += -1
+
+
     """
     Voeg gegeven waarde in op de juiste plek van het gesorteerde deel van gegeven lijst.
     Er wordt gekeken vanaf de gegeven grens.
@@ -35,6 +47,21 @@ def insert(lst, grens, waarde):
 
 
 def insertion_sort(lst):
+    lst_copy = lst.copy()
+    for j in range(1,len(lst_copy)):
+        waarde = lst_copy[j]
+        grens = j - 1 
+        while grens >= 0:
+            if lst_copy[grens] > waarde:
+                lst_copy[grens+1] = lst_copy[grens]
+            if lst_copy[grens] < waarde:
+                lst_copy[grens+1] = waarde
+                break
+            elif grens == 0:
+                lst_copy[grens] = waarde
+                break
+            grens += -1
+
     """
     Sorteer gegeven lijst volgens het insertion sort algoritme.
 
@@ -46,7 +73,7 @@ def insertion_sort(lst):
     Returns:
         list: Een nieuwe, gesorteerde variant van lijst `lst`.
     """
-    return
+    return lst_copy
 
 
 """
