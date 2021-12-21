@@ -1,32 +1,29 @@
 {
   "main": {
-    "id": "3bb8053909c29789",
+    "id": "ccad6ce1348cd6f5",
     "type": "split",
     "children": [
       {
-        "id": "f115d5b65624ea0d",
+        "id": "80ae2ee582ebff45",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Untitled.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "cc978e429e3ace75",
+    "id": "ce69d61cf583544d",
     "type": "split",
     "children": [
       {
-        "id": "ea3b58d85dbe442d",
+        "id": "400373983a7ea64b",
         "type": "tabs",
         "children": [
           {
-            "id": "deeaa861f7276174",
+            "id": "a2017c65ea16a837",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -34,7 +31,7 @@
             }
           },
           {
-            "id": "3935e027646b3b0c",
+            "id": "8efcfd5c3b568932",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -55,36 +52,27 @@
     "width": 300
   },
   "right": {
-    "id": "c6aceca44a2a1c15",
+    "id": "021598a80d9cd451",
     "type": "split",
     "children": [
       {
-        "id": "7015bd99ba3135fa",
+        "id": "86777ba2355f62a1",
         "type": "tabs",
         "children": [
           {
-            "id": "d07a581c187102a2",
+            "id": "a1e77f3ce71300b9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "4ccc77d893ac94e0",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
             }
           }
         ]
@@ -94,17 +82,6 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f115d5b65624ea0d",
-  "lastOpenFiles": [
-    "Untitled.md",
-    "BLOK B/Project Steam/Notullen/2021-12-20 - Presentatie Demo & Retrospective.md",
-    "Reflectie.md",
-    "TI.md",
-    "BLOK B/AI/Opdrachten/1.42.md",
-    "BLOK B/AI/Opdrachten/1.36.md",
-    "BLOK B/AI/Opdrachten/1.35.md",
-    "BLOK B/AI/Opdrachten/1.34.md",
-    "BLOK B/AI/Opdrachten/1.33.md",
-    "BLOK B/AI/Opdrachten/1.32.md"
-  ]
+  "active": "80ae2ee582ebff45",
+  "lastOpenFiles": []
 }
