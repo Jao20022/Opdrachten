@@ -9,9 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BLOK B/Project Steam/Notullen/2021-12-20 - Presentatie Demo & Retrospective.md",
-            "mode": "source",
-            "source": false
+            "file": "BLOK B/TI/Pi.md",
+            "mode": "preview"
           }
         }
       }
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BLOK B/Project Steam/Notullen/2021-12-20 - Presentatie Demo & Retrospective.md",
+                "file": "BLOK B/TI/Pi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,21 +87,21 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "f115d5b65624ea0d",
   "lastOpenFiles": [
+    "BLOK B/TI/Pi.md",
     "BLOK B/Project Steam/Notullen/2021-12-20 - Presentatie Demo & Retrospective.md",
     "Afbeeldingen/Pasted image 20211124105925.png",
     "Feedback Team Sprint 1.md",
     "Reflectie.md",
     "BLOK B/CSC/Les 2.md",
-    "BLOK B/TI/Pi.md",
     "BLOK B/AI/Getallen.md",
     "BLOK B/AI/Asymptomatic notation.md",
     "BLOK B/AI/AI Intro.md",

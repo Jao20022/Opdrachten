@@ -23,16 +23,11 @@ def pulse(pin_nr, high_time, low_time):
 def morse(pin_nr, dot_length, text):
     for i in text:
         if i == ' ':
-            GPIO.output(pin_nr, GPIO.LOW)
             time.sleep(dot_length)
-        else:
-            GPIO.output(pin_nr, GPIO.HIGH)
-            if i == '-':
-                time.sleep(dot_length * 3)
-            elif i == '.':
-                time.sleep(dot_length)
-        GPIO.output(pin_nr, GPIO.LOW)
-        time.sleep(dot_length)
+        elif i == '-':
+            pulse(pin_nr, dot_length * 3, dot_length)
+        elif i == '.':
+            pulse(pin_nr, dot_length, dot_length)
 
     """
     Laat de text horen als morse code.

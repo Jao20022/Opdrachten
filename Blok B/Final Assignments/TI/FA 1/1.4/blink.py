@@ -16,11 +16,9 @@ def pulse(pin, delay1, delay2):
 
 
 def servo_pulse(pin_nr, position):
-    x = (position * 0.000025) + 0.0005
-    GPIO.output(pin_nr, GPIO.HIGH)
-    time.sleep(x)
-    GPIO.output(pin_nr, GPIO.LOW)
-    time.sleep(0.002)
+    x = (position * 0.00002) + 0.0005
+    y = 0.02 - x
+    pulse(pin_nr, x, y)
     """
     Send a servo pulse on the specified gpio pin
     that causes the servo to turn to the specified position, and
