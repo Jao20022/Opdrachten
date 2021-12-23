@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BLOK B/BIM/Les 2.md",
-            "mode": "preview"
+            "file": "BLOK B/Project Steam/Notullen/2021-12-20 - Presentatie Demo & Retrospective.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BLOK B/BIM/Les 2.md",
+                "file": "BLOK B/Project Steam/Notullen/2021-12-20 - Presentatie Demo & Retrospective.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,15 +97,15 @@
   },
   "active": "f115d5b65624ea0d",
   "lastOpenFiles": [
-    "BLOK B/BIM/Les 2.md",
-    "BLOK B/BIM/Les 1.md",
     "BLOK B/Project Steam/Notullen/2021-12-20 - Presentatie Demo & Retrospective.md",
-    "TI.md",
+    "Afbeeldingen/Pasted image 20211124105925.png",
+    "Feedback Team Sprint 1.md",
     "Reflectie.md",
-    "BLOK B/AI/Opdrachten/1.42.md",
-    "BLOK B/AI/Opdrachten/1.36.md",
-    "BLOK B/AI/Opdrachten/1.35.md",
-    "BLOK B/AI/Opdrachten/1.34.md",
-    "BLOK B/AI/Opdrachten/1.33.md"
+    "BLOK B/CSC/Les 2.md",
+    "BLOK B/TI/Pi.md",
+    "BLOK B/AI/Getallen.md",
+    "BLOK B/AI/Asymptomatic notation.md",
+    "BLOK B/AI/AI Intro.md",
+    "BLOK B/CSC/Instructies PI.md"
   ]
 }

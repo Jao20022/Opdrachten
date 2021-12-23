@@ -5,7 +5,7 @@ Strategie Treasie Wiersema ontbreekt van stakeholderanalyse
 Denk na over hoe je gaat communiceren met de hardware.
 	Hoe wil je interactie met hardware in je dashboard tonen
 
-*Commentaar van Andre komt op Canvas*
+"Mooie sheets achtergrond, wel te veel tekst. Tips: Geen sheets voorlezen Oefen om de duur van de presentatie te bepalen. Was nu te lang Maak gebruik van reviews door docenten."
 
 ## Reflectie
 

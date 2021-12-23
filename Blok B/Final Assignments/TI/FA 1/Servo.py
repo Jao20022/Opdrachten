@@ -8,13 +8,11 @@ GPIO.setup(25, GPIO.OUT)
 
 
 def servo_pulse(pin_nr, position):
+    x = (position * 0.000025) + 0.0005
     GPIO.output(pin_nr, GPIO.HIGH)
-    time.sleep(0.0025)
+    time.sleep(x)
     GPIO.output(pin_nr, GPIO.LOW)
-    time.sleep(5)
-    GPIO.output(pin_nr, GPIO.HIGH)
-    time.sleep(0.0005)
-    GPIO.output(pin_nr, GPIO.LOW)
+    time.sleep(0.002)
 
     """
     Send a servo pulse on the specified gpio pin

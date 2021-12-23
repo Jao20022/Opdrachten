@@ -16,7 +16,6 @@ def pulse(pin, delay1, delay2):
 
 
 def servo_pulse(pin_nr, position):
-    print(position)
     x = (position * 0.000025) + 0.0005
     GPIO.output(pin_nr, GPIO.HIGH)
     time.sleep(x)
@@ -43,6 +42,7 @@ GPIO.setup(servo, GPIO.OUT)
 while True:
     for i in range(0, 100, 1):
         servo_pulse(servo, i)
-    time.sleep(0.5)
+    time.sleep(0.48)
     for i in range(100, 0, -1):
         servo_pulse(servo, i)
+    time.sleep(0.48)

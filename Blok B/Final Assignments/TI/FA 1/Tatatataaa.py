@@ -9,16 +9,16 @@ GPIO.setup(18, GPIO.OUT)
 
 def kort():
     GPIO.output(18, GPIO.HIGH)
-    time.sleep(0.5)
+    time.sleep(0.2)
     GPIO.output(18, GPIO.LOW)
-    time.sleep(0.5)
+    time.sleep(0.2)
 
 
 def lang():
     GPIO.output(18, GPIO.HIGH)
-    time.sleep(3)
+    time.sleep(1)
     GPIO.output(18, GPIO.LOW)
-    time.sleep(0.5)
+    time.sleep(0.2)
 
 
 while True:
