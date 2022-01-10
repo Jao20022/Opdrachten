@@ -7,16 +7,34 @@
         "id": "f115d5b65624ea0d",
         "type": "leaf",
         "state": {
+<<<<<<< Updated upstream
           "type": "empty",
           "state": {}
+=======
+          "type": "markdown",
+          "state": {
+            "file": "2022-01-10 - Kickoff Sprint 2.md",
+            "mode": "source",
+            "source": false
+          }
+>>>>>>> Stashed changes
         }
       },
       {
         "id": "c2f82cad13c9de0b",
         "type": "leaf",
         "state": {
+<<<<<<< Updated upstream
           "type": "empty",
           "state": {}
+=======
+          "type": "markdown",
+          "state": {
+            "file": "Kickoff SPrint 2.md",
+            "mode": "source",
+            "source": false
+          }
+>>>>>>> Stashed changes
         }
       }
     ],
@@ -73,6 +91,10 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
+=======
+                "file": "2022-01-10 - Kickoff Sprint 2.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
