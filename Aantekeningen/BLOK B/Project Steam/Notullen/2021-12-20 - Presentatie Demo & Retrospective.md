@@ -11,7 +11,7 @@ Denk na over hoe je gaat communiceren met de hardware.
 
 Niet elke ochtend daily standup
 Daily standups ontbreken
-Tijdens de dauly standups plabord bijhouden
+Tijdens de daily standups plabord bijhouden
 Als daily standups vergeten zijn aan het eind van de les
 
 Geef altijd aan per persoon wat je per persoon goed vondt gaan en wat beter kon. Doe dit over alle andere teamleden en jezelf
