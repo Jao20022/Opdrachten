@@ -7,11 +7,16 @@
         "id": "f115d5b65624ea0d",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "BLOK B/TI/Pi.md",
-            "mode": "preview"
-          }
+          "type": "empty",
+          "state": {}
+        }
+      },
+      {
+        "id": "c2f82cad13c9de0b",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -68,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BLOK B/TI/Pi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,24 +91,24 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "f115d5b65624ea0d",
   "lastOpenFiles": [
-    "BLOK B/TI/Pi.md",
+    "2022-01-10 - Kickoff Sprint 2.md",
+    "Kickoff SPrint 2.md",
     "BLOK B/Project Steam/Notullen/2021-12-20 - Presentatie Demo & Retrospective.md",
     "Afbeeldingen/Pasted image 20211124105925.png",
     "Feedback Team Sprint 1.md",
     "Reflectie.md",
     "BLOK B/CSC/Les 2.md",
+    "BLOK B/TI/Pi.md",
     "BLOK B/AI/Getallen.md",
-    "BLOK B/AI/Asymptomatic notation.md",
-    "BLOK B/AI/AI Intro.md",
-    "BLOK B/CSC/Instructies PI.md"
+    "BLOK B/AI/Asymptomatic notation.md"
   ]
 }
