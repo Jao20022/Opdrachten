@@ -6,7 +6,7 @@ GPIO.setwarnings(0)
 print("sr04 print")
 
 sr04_trig = 20
-sr04_echo = 26
+sr04_echo = 21
 micros = 1 / 1000000
 
 GPIO.setup(sr04_trig, GPIO.OUT)
@@ -40,6 +40,7 @@ def sr04(trig_pin, echo_pin):
             break
     # calculate and return distance
     tijd = (moment2 - moment1)
+    print(tijd)
     geluid_snelheid = 340.29
     afstand = round(((geluid_snelheid*tijd)*100)/2)
     # inplement this step
@@ -47,5 +48,5 @@ def sr04(trig_pin, echo_pin):
 
 
 while True:
-    print(sr04(sr04_trig, sr04_echo),'cm')
+    print(sr04(sr04_trig, sr04_echo))
     time.sleep(0.5)

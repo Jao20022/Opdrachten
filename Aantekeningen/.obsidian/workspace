@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BLOK B/TI/Pi.md",
+            "file": "Untitled.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BLOK B/TI/Pi.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +97,7 @@
   },
   "active": "f115d5b65624ea0d",
   "lastOpenFiles": [
+    "Untitled.md",
     "BLOK B/TI/Pi.md",
     "2022-01-11 - Daily standup.md",
     "Feedback Team Sprint 1.md",
@@ -105,7 +106,6 @@
     "TI.md",
     "BLOK B/AI/Statisitiek.md",
     "BLOK B/Project Steam/Notullen/2022-01-10 - Kickoff Sprint 2.md",
-    "BLOK B/Project Steam/Notullen/2021-12-20 - Presentatie Demo & Retrospective.md",
-    "BLOK B/Project Steam/Notullen/Kick-off_Sprint_1.md"
+    "BLOK B/Project Steam/Notullen/2021-12-20 - Presentatie Demo & Retrospective.md"
   ]
 }

@@ -17,7 +17,14 @@ def apa102_send_bytes( clock_pin, data_pin, bytes ):
     """
     
     # implementeer deze functie:
-    
+    for byte in bytes:
+        for bit in byte:
+            if bit % 2 == 0:
+                GPIO.output(data_pin,GPIO.HIGH)
+            else:
+                GPIO.output(data_pin,GPIO.LOW)
+            GPIO.output(clock_pin,GPIO.HIGH)
+            GPIO.output(clock_pin,GPIO.LOW)
     # zend iedere byte in bytes:
     #    zend ieder bit in byte:
     #       maak de data pin hoog als het bit 1 is, laag als het 0 is
@@ -38,7 +45,16 @@ def apa102( clock_pin, data_pin, colors ):
     """
     
     # implementeer deze functie, maak gebruik van de apa102_send_bytes functie
-    
+
+    for lst in colors:
+        for i in lst:
+            ''{:08b}'.format(i)
+    empty_byte = 8 * [0]
+    full_byte = 8 * [1]
+    apa102_send_bytes(clock_pin,data_pin,4 *[empty_byte] )
+    for i in range(8):
+        apa102_send_bytes(clock_pin, data_pin, empty_byte)
+    apa102_send_bytes(clock_pin,data_pin,4 * [full_byte])
     # zend eerst 4 bytes met nullen
     # zend dan voor iedere pixel:
     #    eerste een byte met allemaal enen
