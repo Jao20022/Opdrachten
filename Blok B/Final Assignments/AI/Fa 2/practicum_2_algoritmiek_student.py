@@ -22,6 +22,9 @@ Let op! Het is niet toegestaan om bestaande modules te importeren en te
 """
 
 # TODO: Vul hier je naam, klas en studentnummer in.
+from operator import indexOf
+
+
 naam = "Just Oudheusden"
 klas = "B"
 studentnummer = 1815037
@@ -163,9 +166,16 @@ def my_sort(lst):
 def linear_search_recursive(lst, target):
     # Controleert voor elke index of deze overeenkomt met de target.
     # Als de loop geen True retourneerd wordt False geretourneerd
-    for i in range(len(lst)):
+    i = 0
+    while True:
         if lst[i] == target:
             return True
+        else:
+            i = i+1
+            if i == len(lst):
+                return False
+            
+        
     """
     Zoek een element in de gegeven lijst door middel van recursief lineair zoeken.
 
@@ -178,32 +188,28 @@ def linear_search_recursive(lst, target):
     Returns:
         bool: Of het element in de lijst voorkomt.
     """
-    return False
+ 
 
 
 def binary_search_recursive(lst, target):
-    # Variable worden aangemaakt
-    # minumum is eerste index van lst
-    minimum = 0
-    # maximum is de hoogste index uit lst
-    maximum = len(lst) -1
-    # mid is een integer
-    mid = int
+    # maakt een kopie van lst
+    # neemt de middelste item als gok
+    # als gok gelijk is aan target retourneert True
+    # als lengte van lst 1 is retourneert False
+    # a;s de target kleiner is dan de gok wordt lst_copy verkort tot voor de gok
+    # als target groter is dan de gok wordt lst_copy verkort tot vanaf de gok
+    lst_copy = lst.copy()
     while True:
-    # het gemiddelde wordt van de min en max berekend en naar beneden afgerond
-        mid = int(((minimum + maximum)/2) // 1)
-    # Als minimum groter is dan maximum zit de target niet in de lijst en wordt False geretourneerd
-        if minimum > maximum:
-            return False
-    # Als mid gelijk is aan de target wordt True geretourneerd
-        elif lst[mid] == target:
+        guess = lst_copy[len(lst_copy)//2]
+        if guess == target:
             return True
-    # Als mid kleiner is dan de target wordt minimum verhoogt naar mid + 1
-        elif lst[mid] < target:
-            minimum = mid +1
-    # Anders wordt maximum verlaag naar mid -1
-        else:
-            maximum = mid -1
+        elif len(lst_copy) == 1:
+            return False
+        elif guess < target:
+            lst_copy = lst_copy[lst_copy.index(guess):]
+        elif guess > target:
+            lst_copy = lst_copy[:len(lst_copy)-lst_copy.index(guess)]
+
     """
     Zoek een element in de gegeven lijst door middel van recursief binair zoeken.
 
