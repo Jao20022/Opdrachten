@@ -1,6 +1,6 @@
-import random
+from random import randint
 
-Getal = random.randint(0,10)
+Getal = randint(0,10)
 
 while True:
     try:
