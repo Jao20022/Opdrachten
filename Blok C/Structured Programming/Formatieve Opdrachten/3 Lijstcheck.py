@@ -1,7 +1,3 @@
-from re import X
-from tkinter.messagebox import RETRY
-
-
 def count(Getal, Lijst):
     Aantal = 0
     for i in Lijst:

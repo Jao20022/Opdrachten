@@ -9,5 +9,3 @@ def sorteren(Lijst):
     return GesorteerdeLijst
 
 
-x = [5,4,5,4,5,43,3,43,45,4,3,4,5,3,4,5,3,23,4,5,4,63,45,1,4]
-print(sorteren(x))
