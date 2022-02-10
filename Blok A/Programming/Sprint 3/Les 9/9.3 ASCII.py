@@ -1,5 +1,5 @@
 def code(invoerstring):
-    stri = str()
+    stri = str
     for i in invoerstring:
         stri += chr(ord(i) + 3)
     return stri
