@@ -1,15 +1,10 @@
-from sre_constants import SUCCESS
-from tracemalloc import start
-from turtle import clearscreen
-
-
 Lijst = []
 Colors = ['A','B','C','D','E','F']
 Tekst = ''
 
 
 
-def PossibleCombinations(Colors, Positions,Text, List):
+def PossibleCombinations(Colors = ['A','B','C','D','E','F'], Positions = 4 ,Text = '', List = []):
     Positions = Positions - 1
     for i in Colors:
         Current = Text
@@ -48,22 +43,6 @@ def Feedback(CorrectCombinationStr,GuessStr):
             i = i+1
     return Feedback
 
-def Start():
-    while True:
-        print("""
-        Menu:
-        
-        1. Codebreaker
-        2. Codemaker
-         """)
-        UserInput = input('Select a choice: ')
-        if UserInput == '1':
-            Codebreaker()
-        elif UserInput == '2':
-            Codemaker()
-        else:
-            print('Invalid input')
-
 def EnterCode():
     BadCode = True
     while BadCode:
@@ -73,14 +52,36 @@ def EnterCode():
             if not i in Colors or len(Code) != 4:
                 BadCode = True
     return Code
+
+def SimpleAlogrithm():
+    x = 5
+
+
+def Start():
+    while True:
+        print("""
+        Menu:
+        
+        1. Codebreaker
+        2. Codemaker
+         """)
+        UserInput = input('Maak een keuze: ')
+        if UserInput == '1':
+            Codebreaker()
+        elif UserInput == '2':
+            Codemaker()
+        else:
+            print('Invalid input')
+
+
 def Codebreaker():
     print('Codebreaker')
 
 def Codemaker():
     print('Codemaker')
     Code = EnterCode()
-    while True:
-        print('success')
+    PossibleGuesses = PossibleCombinations()
+
 
 
 
