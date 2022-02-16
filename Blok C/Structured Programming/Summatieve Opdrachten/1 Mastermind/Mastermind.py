@@ -1,7 +1,5 @@
-Lijst = []
-Colors = ['A','B','C','D','E','F']
-Tekst = ''
-
+from __future__ import barry_as_FLUFL
+import random
 
 
 def PossibleCombinations(Colors = ['A','B','C','D','E','F'], Positions = 4 ,Text = '', List = []):
@@ -14,14 +12,15 @@ def PossibleCombinations(Colors = ['A','B','C','D','E','F'], Positions = 4 ,Text
         else: List.append(Current)
     return List
     
+def StringtoArray(String):
+    List = []
+    for Letter in String:
+        List.append(Letter)
+    return List
 
 def Feedback(CorrectCombinationStr,GuessStr):
-    CorrectCombination = []
-    Guess = []
-    for Letter in CorrectCombinationStr:
-        CorrectCombination.append(Letter)
-    for Letter in GuessStr:
-        Guess.append(Letter)
+    CorrectCombination = StringtoArray(CorrectCombinationStr)
+    Guess = StringtoArray(GuessStr)
     Feedback = [0,0]
     i = 0
     while i < len(CorrectCombination) > 0:
@@ -57,6 +56,7 @@ def SimpleAlogrithm():
     x = 5
 
 
+
 def Start():
     while True:
         print("""
@@ -64,12 +64,15 @@ def Start():
         
         1. Codebreaker
         2. Codemaker
+        3. Debug
          """)
         UserInput = input('Maak een keuze: ')
         if UserInput == '1':
             Codebreaker()
         elif UserInput == '2':
             Codemaker()
+        elif UserInput == '3':
+            Debug()
         else:
             print('Invalid input')
 
@@ -81,8 +84,47 @@ def Codemaker():
     print('Codemaker')
     Code = EnterCode()
     PossibleGuesses = PossibleCombinations()
+    Guess = ''
+    while Guess != Code:
+        break
 
 
+def PickGuess(PossibleGuesses, Guesses):
+    while True:
+        Guess = random.choice(PossibleGuesses)
+        if Guess not in Guesses:
+            break
+    return Guess
 
+    
+def Debug():
+    PossibleGuesses = PossibleCombinations()
+    Code = random.choice(PossibleGuesses)
+    Guess = ''
+    Guesses = []
+    Scores = []
+    while Guess != Code:
+        print(len(PossibleGuesses))
+        if not Code in PossibleGuesses:
+            print('Error')
+            break
+        Guess = PickGuess(PossibleGuesses, Guesses)
+        Score = Feedback(Code, Guess)
+        Guesses.append(Guess)
+        Scores.append(Score)
+        PossibleGuesses = FilterGuesses(PossibleGuesses, Code, Guess, Score)
+    print(Code)
+    print(Guess)
+    print('win')
+    
+
+def FilterGuesses(PossibleGuesses,Code, GuessStr, Score):
+    Guess = StringtoArray(GuessStr)
+    result = []
+    for PossibleGuess in PossibleGuesses:
+        PossibleScore = Feedback(Code, PossibleGuess)
+        if not PossibleScore < Score:
+            result.append(PossibleGuess)
+    return result
 
 Start()
