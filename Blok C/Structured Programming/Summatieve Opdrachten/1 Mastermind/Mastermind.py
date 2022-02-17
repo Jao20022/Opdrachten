@@ -1,4 +1,3 @@
-from __future__ import barry_as_FLUFL
 import random
 
 
@@ -9,18 +8,16 @@ def PossibleCombinations(Colors = ['A','B','C','D','E','F'], Positions = 4 ,Text
         Current = Current + i
         if Positions > 0:
             List = PossibleCombinations(Colors, Positions,Current, List)
-        else: List.append(Current)
+        else:
+            List.append(Current)
     return List
     
-def StringtoArray(String):
-    List = []
-    for Letter in String:
-        List.append(Letter)
-    return List
 
 def Feedback(CorrectCombinationStr,GuessStr):
-    CorrectCombination = StringtoArray(CorrectCombinationStr)
-    Guess = StringtoArray(GuessStr)
+    CorrectCombination = []
+    Guess = []
+    CorrectCombination.extend(CorrectCombinationStr)
+    Guess.extend(GuessStr)
     Feedback = [0,0]
     i = 0
     while i < len(CorrectCombination) > 0:
@@ -53,7 +50,90 @@ def EnterCode():
     return Code
 
 def SimpleAlogrithm():
-    x = 5
+    PossibleGuesses = PossibleCombinations()
+    Code = random.choice(PossibleGuesses)
+    Guess = ''
+    Guesses = []
+    Scores = []
+    while Guess != Code:
+        print(len(PossibleGuesses))
+        if not Code in PossibleGuesses:
+            print('Error')
+            break
+        Guess = PickGuess(PossibleGuesses, Guesses)
+        Score = Feedback(Code, Guess)
+        Guesses.append(Guess)
+        Scores.append(Score)
+        PossibleGuesses = FilterGuesses(PossibleGuesses, Guess, Score)
+    print(Code)
+    print(Guess)
+    print('win')
+
+def GenerateMatrix(PossibleGuesses):
+    Matrix = []
+    for Index in range(len(PossibleGuesses)):
+        Matrix.append([])
+        for PossibleGuess in PossibleGuesses:
+            Matrix[Index].append(Feedback(PossibleGuess, PossibleGuesses[Index]))
+    return Matrix
+
+def GeneratePossibleScores(CodeLength):
+    PossibleScores = []
+    for i in range(CodeLength+1):
+        for x in range(CodeLength+1):
+            if not i + x > CodeLength:
+                PossibleScores.append([i,x])
+    return PossibleScores
+
+def GetAllIndex(List, Value):
+    print(Value)
+    Indexes = []
+    for Index in range(len(List)):
+        if List[Index] == Value:
+            Indexes.append(Index)
+    return Indexes
+
+
+def FilterMatrix(PossibleGuesses, Matrix):
+    FilteredMatrix = []
+    PossibleScores = GeneratePossibleScores(len(PossibleGuesses[0]))
+    for i in range(len(Matrix)):
+        FilteredMatrix.append([])
+        for Score in PossibleScores:
+            FilteredMatrix[i].append(Matrix[i].count(Score))
+        FilteredMatrix[i] = max(FilteredMatrix[i])
+    Indexes = GetAllIndex(FilteredMatrix,min(FilteredMatrix))
+    Guesses = []
+    for Index in Indexes:
+        Guesses.append(PossibleGuesses[Index])
+    return Guesses
+
+
+
+
+
+def WorstCaseAlgorithm():
+    PossibleGuesses = PossibleCombinations()
+    Code = random.choice(PossibleGuesses)
+    Guess = ''
+    GuessHistory = []
+    ScoreHistory = []
+    while Guess != Code:
+        print(len(PossibleGuesses))
+        if not Code in PossibleGuesses:
+            print('Error')
+            break
+        Matrix = GenerateMatrix(PossibleGuesses)
+        OptimalGuesses = FilterMatrix(PossibleGuesses,Matrix)
+        Guess = PickGuess(OptimalGuesses,GuessHistory)
+        Score = Feedback(Code, Guess)
+        GuessHistory.append(Guess)
+        ScoreHistory.append(Score)
+        PossibleGuesses = FilterGuesses(PossibleGuesses, Guess, Score)
+    print(Code)
+    print(Guess)
+    print('win')
+    
 
 
 
@@ -89,42 +169,40 @@ def Codemaker():
         break
 
 
-def PickGuess(PossibleGuesses, Guesses):
+def PickGuess(PossibleGuesses, GuessHistory):
     while True:
         Guess = random.choice(PossibleGuesses)
-        if Guess not in Guesses:
+        if Guess not in GuessHistory:
             break
     return Guess
 
     
 def Debug():
-    PossibleGuesses = PossibleCombinations()
-    Code = random.choice(PossibleGuesses)
-    Guess = ''
-    Guesses = []
-    Scores = []
-    while Guess != Code:
-        print(len(PossibleGuesses))
-        if not Code in PossibleGuesses:
-            print('Error')
-            break
-        Guess = PickGuess(PossibleGuesses, Guesses)
-        Score = Feedback(Code, Guess)
-        Guesses.append(Guess)
-        Scores.append(Score)
-        PossibleGuesses = FilterGuesses(PossibleGuesses, Code, Guess, Score)
-    print(Code)
-    print(Guess)
-    print('win')
+    while True:
+        print("""
+        Menu:
+        
+        1. Simple Algorithm
+         """)
+        UserInput = input('Maak een keuze: ')
+        if UserInput == '1':
+            SimpleAlogrithm()
+        elif UserInput == '2':
+            Codemaker()
+        elif UserInput == '3':
+            Debug()
+        else:
+            print('Invalid input')
     
 
-def FilterGuesses(PossibleGuesses,Code, GuessStr, Score):
-    Guess = StringtoArray(GuessStr)
+def FilterGuesses(PossibleGuesses, GuessStr, Score):
+    Guess = []
+    Guess.extend(GuessStr)
     result = []
     for PossibleGuess in PossibleGuesses:
-        PossibleScore = Feedback(Code, PossibleGuess)
-        if not PossibleScore < Score:
+        PossibleScore = Feedback(GuessStr, PossibleGuess)
+        if PossibleScore == Score:
             result.append(PossibleGuess)
     return result
 
-Start()
+WorstCaseAlgorithm()
