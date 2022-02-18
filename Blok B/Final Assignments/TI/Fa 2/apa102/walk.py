@@ -1,38 +1,61 @@
 import time
 import RPi.GPIO as GPIO
-GPIO.setmode( GPIO.BCM ) 
-GPIO.setwarnings( 0 )
 
-print( "neopixels walk" )
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(0)
+
+print("neopixels walk")
 
 clock_pin = 19
 data_pin = 26
 
-GPIO.setup( clock_pin, GPIO.OUT )
-GPIO.setup( data_pin, GPIO.OUT )
+GPIO.setup(clock_pin, GPIO.OUT)
+GPIO.setup(data_pin, GPIO.OUT)
 
-def apa102_send_bytes( clock_pin, data_pin, bytes ):
+
+def apa102_send_bytes(clock_pin, data_pin, bytes):
     """
     zend de bytes naar de APA102 LED strip die is aangesloten op de clock_pin en data_pin
     """
-    
+
     # implementeer deze functie:
     for byte in bytes:
         for bit in byte:
             if bit % 2 == 0:
-                GPIO.output(data_pin,GPIO.HIGH)
+                GPIO.output(data_pin, GPIO.HIGH)
             else:
-                GPIO.output(data_pin,GPIO.LOW)
-            GPIO.output(clock_pin,GPIO.HIGH)
-            GPIO.output(clock_pin,GPIO.LOW)
+                GPIO.output(data_pin, GPIO.LOW)
+            GPIO.output(clock_pin, GPIO.HIGH)
+            GPIO.output(clock_pin, GPIO.LOW)
     # zend iedere byte in bytes:
     #    zend ieder bit in byte:
     #       maak de data pin hoog als het bit 1 is, laag als het 0 is
     #       maak de clock pin hoog
     #       maak de clock pin laag
-   
 
-def apa102( clock_pin, data_pin, colors ):
+
+def apa102(clock_pin, data_pin, colors):
+    print(colors)
+    empty_byte = 8 * [0]
+    full_byte = 8 * [1]
+    for byte in range(len(colors)):
+        for bit in range(len(colors[byte])):
+            temp = '{:08b}'.format(colors[byte][bit])
+            colors[byte][bit] = []
+            for i in temp:
+                colors[byte][bit].append(int(i))
+        colors[byte].insert(0, full_byte)
+
+    print(colors)
+
+    print(colors)
+
+    print(colors)
+    apa102_send_bytes(clock_pin, data_pin, 4 * [empty_byte])
+    for i in range(8):
+        apa102_send_bytes(clock_pin, data_pin, colors)
+    apa102_send_bytes(clock_pin, data_pin, 4 * [full_byte])
+
     """
     zend de colors naar de APA102 LED strip die is aangesloten op de clock_pin en data_pin
     
@@ -43,44 +66,39 @@ def apa102( clock_pin, data_pin, colors ):
     bv: colors = [ [ 0, 0, 0 ], [ 255, 255, 255 ], [ 128, 0, 0 ] ]
     zet de eerste LED uit, de tweede vol aan (wit) en de derde op blauw, halve strekte.
     """
-    
+
     # implementeer deze functie, maak gebruik van de apa102_send_bytes functie
 
-    for lst in colors:
-        for i in lst:
-            ''{:08b}'.format(i)
-    empty_byte = 8 * [0]
-    full_byte = 8 * [1]
-    apa102_send_bytes(clock_pin,data_pin,4 *[empty_byte] )
-    for i in range(8):
-        apa102_send_bytes(clock_pin, data_pin, empty_byte)
-    apa102_send_bytes(clock_pin,data_pin,4 * [full_byte])
     # zend eerst 4 bytes met nullen
     # zend dan voor iedere pixel:
     #    eerste een byte met allemaal enen
     #    dan de 3 bytes met de kleurwaarden
     # zend nog 4 bytes, maar nu met allemaal enen
 
-blue = [ 8, 0, 0 ]
-green = [ 0, 255, 0 ]
-red = [ 0, 0, 255 ]
 
-def colors( x, n, on, off ):
-   result = []
-   for i in range( 0, n ):
-      if i == x:
-           result.append( on )
-      else:
-           result.append( off )
-   return result           
+blue = [8, 0, 0]
+green = [0, 255, 0]
+red = [0, 0, 255]
 
-def walk( clock_pin, data_pin, delay, n = 8 ):
-   while True:
-      for x in range( 0, n ):
-         apa102( clock_pin, data_pin, colors( x, n, red, blue ) )
-         time.sleep( delay )
-      for x in range( n - 2, 0, -1 ):
-         apa102( clock_pin, data_pin, colors( x, n, red, blue ) )
-         time.sleep( delay )
-         
-walk( clock_pin, data_pin, 0.03 )         
+
+def colors(x, n, on, off):
+    result = []
+    for i in range(0, n):
+        if i == x:
+            result.append(on)
+        else:
+            result.append(off)
+    return result
+
+
+def walk(clock_pin, data_pin, delay, n=8):
+    while True:
+        for x in range(0, n):
+            apa102(clock_pin, data_pin, colors(x, n, red, blue))
+            time.sleep(delay)
+        for x in range(n - 2, 0, -1):
+            apa102(clock_pin, data_pin, colors(x, n, red, blue))
+            time.sleep(delay)
+
+
+walk(clock_pin, data_pin, 0.03)

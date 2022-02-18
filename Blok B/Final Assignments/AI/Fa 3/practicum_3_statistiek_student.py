@@ -24,12 +24,20 @@ Let op! Het is niet toegestaan om bestaande modules te importeren en te
 """
 
 # TODO: Vul hier je naam, klas en studentnummer in.
-naam = ""
-klas = ""
-studentnummer = -1
+from ast import expr_context
+from operator import indexOf
+from re import L
+from statistics import variance
+
+
+naam = "Just Oudheusden"
+klas = "B"
+studentnummer = 1815037
 
 
 def mean(lst):
+    # berekent het gemiddelde en retourneert deze
+    average = sum(lst)/len(lst)
     """
     Bepaal het gemiddelde van een lijst getallen.
 
@@ -39,23 +47,32 @@ def mean(lst):
     Returns:
         float: Het gemiddelde van de gegeven getallen.
     """
-    return
+    return average
 
 
 def rnge(lst):
+    # Geeft verschil tussen de hoogste en laagste waarde uit lsts
     """
     Bepaal het bereik van een lijst getallen.
-
+    
     Args:
         lst (list): Een lijst met gehele getallen.
 
     Returns:
         int: Het bereik van de gegeven getallen.
     """
-    return
+    range = max(lst)-min(lst)
+    return range
 
 
 def median(lst):
+    # sorteert de lijst en retourneert de middelste waarde
+    # als de lengte van de lijst even is. Wordt het gemiddelde van de middelste twee waardes geretourneert
+    lst.sort()
+    if len(lst) % 2 == 0:
+        M = (lst[(len(lst)//2)-1] + lst[len(lst)//2])/2
+    else:
+        M = float(lst[len(lst)//2])
     """
     Bepaal de mediaan van een lijst getallen.
 
@@ -65,10 +82,16 @@ def median(lst):
     Returns:
         float: De mediaan van de gegeven getallen.
     """
-    return
+    return M
 
 
 def q1(lst):
+    # sorteert de lijst en geeft de mediaan van de eerste helft
+    # als de lijst oneven is wordt de middelste waarde uit de lijst gehaalt
+    lst.sort()
+    if not len(lst) % 2 == 0:
+       lst.pop(len(lst)//2)
+    Q1 = median(lst[:int(len(lst)/2)])
     """
     Bepaal het eerste kwartiel Q1 van een lijst getallen.
 
@@ -80,10 +103,16 @@ def q1(lst):
     Returns:
         float: Het eerste kwartiel Q1 van de gegeven getallen.
     """
-    return
+    return Q1
 
 
 def q3(lst):
+    # sorteert de lijst en geeft de mediaan van de tweede helft
+    # als de lijst oneven is wordt de middelste waarde uit de lijst gehaalt
+    lst.sort()
+    if not len(lst) % 2 == 0:
+       lst.pop(len(lst)//2)
+    Q3 = median(lst[int(len(lst)/2):])
     """
     Bepaal het derde kwartiel Q3 van een lijst getallen.
 
@@ -93,10 +122,21 @@ def q3(lst):
     Returns:
         float: Het derde kwartiel Q3 van de gegeven getallen.
     """
-    return
+    return Q3
 
 
 def var(lst):
+    # berekent het gemiddelde van lst
+    # berekent voor elke waarde in de lijst het verschil met de gemiddelde
+    # neemt het kwadraat van deze waardes en voegt deze toe aan 'nieuwe_waarde'
+    # berekent de variantie door het gemiddelde van 'nieuwe_waarde' te berekenen
+    gemiddelde = sum(lst)/len(lst)
+    nieuwe_waarde =[]
+    for i in lst:
+        gemiddelde_i = i - gemiddelde
+        nieuwe_waarde.append(gemiddelde_i**2)
+    variantie = sum(nieuwe_waarde)/len(lst)
+    
     """
     Bepaal de variantie van een lijst getallen.
 
@@ -106,10 +146,23 @@ def var(lst):
     Returns:
         float: De variantie van de gegeven getallen.
     """
-    return
+    return variantie
 
 
 def std(lst):
+    # berekent het gemiddelde van lst
+    # berekent voor elke waarde in de lijst het verschil met de gemiddelde en voegt deze toe aan 'di'
+    # berekent het kwadraat van deze waardes
+    # berekent de gemiddelde van 'di' en slaat deze of als 'Kgem'
+    # berekent de 'standaarddeviatie' door de wortel van 'Kgem' te nemen
+    Xgem = sum(lst)/len(lst)
+    di =[]
+    for i in lst:
+        di.append(i-Xgem)
+    for j in range(len(di)):
+        di[j] = di[j]**2
+    Kgem = sum(di)/len(di)
+    standaarddeviatie = Kgem**(1/2)
     """
     Bepaal de standaardafwijking van een lijst getallen.
 
@@ -119,10 +172,19 @@ def std(lst):
     Returns:
         float: De standaardafwijking van de gegeven getallen.
     """
-    return
+    return standaarddeviatie
 
 
 def freq(lst):
+    # probeert eerst alle waardes aan de dictionary 'freqs' toe te voegen
+    # geeft deze keys de waardes van het aantal dat die key voorkomt in de lijst.
+
+    freqs = dict()
+    for i in lst:
+        freqs.update({i:''})
+    for j in freqs:
+        freqs[j] = lst.count(j)
+    
     """
     Bepaal de frequenties van alle getallen in een lijst.
 
@@ -140,11 +202,34 @@ def freq(lst):
         >> freq([1, 1, 2, 3, 2, 1])
         {1: 3, 2: 2, 3: 1}
     """
-    freqs = dict()
+    
     return freqs
 
 
 def modes(lst):
+    # geeft 'freqs' het resultaat van functie freqs
+    # voegt alle keys toe aan de lijst 'keys'
+    # sorteert de lijst 'keys'
+    # voegt de aantallen dat de keys voorkomen toe aan de lijst aantallen
+    # haalt de hoogste waarde uit de lijst 'aantal' op en slaat deze op in 'Hoog'
+    # voegt alle 'keys' met het aantal 'Hoog' toe aan de lijst 'modi'
+    modi = []
+    freqs = freq(lst)
+    keys = []
+    aantal = []
+    for x in freqs.keys():
+        keys.append(x)
+    keys.sort()
+    for i in keys:
+        aantal.append(freqs[i])
+    Hoog = max(aantal)
+    for j in range(len(aantal)):
+        if aantal[j] == Hoog:
+            modi.append(keys[j])
+    return modi
+
+    
+
     """
     Bepaal alle modi van een lijst getallen.
 
@@ -163,7 +248,7 @@ def modes(lst):
         >> modes([1, 1, 2, 3, 2, 1])
         [1]
     """
-    modi = []
+    
     return sorted(modi)
 
 
