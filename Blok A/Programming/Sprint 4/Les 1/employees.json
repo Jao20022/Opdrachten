@@ -1,8 +1,0 @@
-{
-  "employees": [
-    {"name" :  "William",
-      "lastName" : "Jones"},
-    {"name" : "Anna", "lastName" : "Ford"},
-    {"name" : "Peter", "lastName" :  "Griffin"}
-  ]
-}
