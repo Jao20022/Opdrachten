@@ -22,6 +22,7 @@ def Codebreaker():
 def Codemaker():
     Simple = False
     Worst = False
+    Own = False
     while True:
         print('Codemaker')
         print("""
@@ -29,6 +30,7 @@ def Codemaker():
         
         1. Simple Algorithm
         2. Worst Case Algorithm
+        3. Own Algorithm
          """)
         UserInput = input('Maak een keuze: ')
         if UserInput == '1':
@@ -36,6 +38,9 @@ def Codemaker():
             break
         elif UserInput == '2':
             Worst = True
+            break
+        elif UserInput == '3':
+            Own = True
             break
         else:
             print('Invalid input')
@@ -51,6 +56,8 @@ def Codemaker():
             Guess = SimpleAlogrithm(PossibleGuesses, GuessHistory, ScoreHistory)
         elif Worst:
             Guess = WorstCaseAlgorithm(PossibleGuesses, GuessHistory, ScoreHistory)
+        elif Own:
+            Guess = OwnAlgorithm(PossibleGuesses, GuessHistory, ScoreHistory)
         print('Code:', Code)
         print('Guess:', Guess)
         Score = UserFeedback(LengthCode)
@@ -62,6 +69,8 @@ def Debug():
     Tries = 0
     Simple = False
     Worst = False
+    Own = False
+    
     while True:
         print('debug')
         print("""
@@ -69,6 +78,7 @@ def Debug():
         
         1. Simple Algorithm
         2. Worst Case Algorithm
+        3. Own Algorithm
          """)
         UserInput = input('Maak een keuze: ')
         if UserInput == '1':
@@ -77,8 +87,12 @@ def Debug():
         elif UserInput == '2':
             Worst = True
             break
+        elif UserInput == '3':
+            Own = True
+            break
         else:
             print('Invalid input')
+    
     LengthCode = 4
     PossibleGuesses = PossibleCombinations(List=[], Positions=LengthCode)
     Code = random.choice(PossibleGuesses)
@@ -92,6 +106,8 @@ def Debug():
             Guess = SimpleAlogrithm(PossibleGuesses, GuessHistory, ScoreHistory)
         elif Worst:
             Guess = WorstCaseAlgorithm(PossibleGuesses, GuessHistory, ScoreHistory)
+        elif Own:
+            Guess = OwnAlgorithm(PossibleGuesses, GuessHistory, ScoreHistory)
         Score = Feedback(Code, Guess)
         GuessHistory.append(Guess)
         ScoreHistory.append(Score)
@@ -149,9 +165,9 @@ def FilterGuesses(PossibleGuesses, GuessStr, Score):
     return result
 
 
-def FilterMatrix(PossibleGuesses, Matrix):
+def FilterMatrix(PossibleGuesses, Matrix, Filter = False):
     FilteredMatrix = []
-    PossibleScores = GeneratePossibleScores(len(PossibleGuesses[0]))
+    PossibleScores = GeneratePossibleScores(len(PossibleGuesses[0]), Filter)
     for i in range(len(Matrix)):
         FilteredMatrix.append([])
         for Score in PossibleScores:
@@ -173,17 +189,20 @@ def GenerateMatrix(PossibleGuesses):
     return Matrix
 
 
-def GeneratePossibleScores(CodeLength):
+def GeneratePossibleScores(CodeLength, Filter):
     PossibleScores = []
     for i in range(CodeLength + 1):
         for x in range(CodeLength + 1):
-            if not i + x > CodeLength:
-                PossibleScores.append([i, x])
+            if Filter:
+                if (i != 0 or x != 0) or i + x == 4:
+                    PossibleScores.append([i,x])
+            else:
+                if not i + x > CodeLength:
+                    PossibleScores.append([i, x])
     return PossibleScores
 
 
 def GetAllIndex(List, Value):
-    print(Value)
     Indexes = []
     for Index in range(len(List)):
         if List[Index] == Value:
@@ -267,5 +286,14 @@ def WorstCaseAlgorithm(PossibleGuesses, GuessHistory, ScoreHistory):
     Guess = PickGuess(OptimalGuesses, GuessHistory)
     return Guess
 
+
+def OwnAlgorithm(PossibleGuesses, GuessHistory, ScoreHistory):
+    if ScoreHistory != []:
+        PossibleGuesses = GetPossibleGuesses(PossibleGuesses, GuessHistory, ScoreHistory)
+    Matrix = GenerateMatrix(PossibleGuesses)
+    OptimalGuesses = FilterMatrix(PossibleGuesses, Matrix, True)
+    Guess = PickGuess(OptimalGuesses, GuessHistory)
+    return Guess
+    
 
 Start()
