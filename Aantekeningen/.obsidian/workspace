@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "BLOK C/Analytical Reasoning/Opdrachten/Opdracht 2.3.md",
-            "mode": "preview",
+            "file": "Untitled 1.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BLOK C/Analytical Reasoning/Opdrachten/Opdracht 2.3.md",
+                "file": "Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +105,8 @@
   },
   "active": "f115d5b65624ea0d",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "Untitled.md",
     "BLOK C/Analytical Reasoning/Opdrachten/Opdracht 2.3.md",
     "BLOK C/Analytical Reasoning/Opdrachten/Opdracht 2.2.md",
     "BLOK C/Analytical Reasoning/Opdrachten/Opdracht 2.1.md",
@@ -112,8 +114,6 @@
     "BLOK C/Analytical Reasoning/Introductie.md",
     "BLOK B/AI/Opdrachten/1.43.md",
     "BLOK B/AI/Opdrachten/1.29.md",
-    "BLOK B/Project Steam/Notullen/Feedback eind block b.md",
-    "BLOK B/Project Steam/Notullen/Feedback Team Sprint 1.md",
-    "BLOK B/Project Steam/Notullen/2022-01-20 - Feedback Demo Sprint 2.md"
+    "BLOK B/Project Steam/Notullen/Feedback eind block b.md"
   ]
 }
